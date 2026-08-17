@@ -10,6 +10,12 @@
 
 import { useState } from "react";
 import type { MultipleChoiceQuestion, DocumentIdentificationExercise } from "@/types/practice";
+import styles from "../AnswerButton.module.css";
+
+function answerButtonClassName(chosen: boolean, isChosen: boolean, isCorrectChoice: boolean): string {
+  if (!chosen || !isChosen) return styles.answerButton;
+  return `${styles.answerButton} ${isCorrectChoice ? styles.answerButtonCorrect : styles.answerButtonIncorrect}`;
+}
 
 interface Props {
   mcqs: MultipleChoiceQuestion[];
@@ -27,13 +33,12 @@ function McqItem({ mcq }: { mcq: MultipleChoiceQuestion }) {
       <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
         {[mcq.correct_choice, ...Object.keys(mcq.incorrect_choices)].map((choice) => {
           const isChosen = chosen === choice;
-          const bg = !chosen ? "#fff" : isChosen ? (choice === mcq.correct_choice ? "#e6f4ea" : "#fdecea") : "#fff";
           return (
             <button
               key={choice}
               onClick={() => setChosen(choice)}
               disabled={chosen !== null}
-              style={{ textAlign: "left", padding: "0.75rem", border: "1px solid #ccc", borderRadius: 6, background: bg, cursor: chosen ? "default" : "pointer" }}
+              className={answerButtonClassName(chosen !== null, isChosen, choice === mcq.correct_choice)}
             >
               {choice}
             </button>
@@ -67,13 +72,12 @@ function DocumentExercise({ exercise }: { exercise: DocumentIdentificationExerci
       <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
         {exercise.choices.map((choice) => {
           const isChosen = chosen === choice.family;
-          const bg = !chosen ? "#fff" : isChosen ? (choice.is_correct ? "#e6f4ea" : "#fdecea") : "#fff";
           return (
             <button
               key={choice.family}
               onClick={() => setChosen(choice.family)}
               disabled={chosen !== null}
-              style={{ textAlign: "left", padding: "0.75rem", border: "1px solid #ccc", borderRadius: 6, background: bg, cursor: chosen ? "default" : "pointer" }}
+              className={answerButtonClassName(chosen !== null, isChosen, choice.is_correct)}
             >
               {choice.label}
             </button>

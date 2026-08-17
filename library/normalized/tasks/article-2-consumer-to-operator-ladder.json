@@ -1,0 +1,259 @@
+{
+  "ladder_id": "article-2-consumer-to-operator-v1",
+  "title": "Article 2: From Consumer to Operator",
+  "tasks": [
+    {
+      "task_id": "a2-t1-buy-a-laptop",
+      "scenario": "You walk into an electronics store and buy a laptop for personal use, paying cash and taking it home the same day.",
+      "learner_role": "ordinary consumer",
+      "objective": "Identify whether UCC Article 2 applies to this purchase, and why.",
+      "facts_provided": [
+        "You paid money for a laptop.",
+        "The laptop is a physical, movable object.",
+        "You are buying it for personal use, not resale."
+      ],
+      "options": [
+        {
+          "option_id": "applies-goods",
+          "label": "Yes -- Article 2 applies because a laptop is \"goods.\"",
+          "is_correct": true,
+          "consequence": "You're right to check this first -- everything else in this transaction depends on it.",
+          "plain_language_feedback": "A laptop is a real, physical, movable thing you can pick up and carry -- exactly what the statute means by \"goods.\" Article 2 governs sales of goods, so it applies here."
+        },
+        {
+          "option_id": "doesnt-apply-service",
+          "label": "No -- buying something in a store is a service, not a sale of goods.",
+          "is_correct": false,
+          "consequence": "You walk away without checking your real rights if the laptop turns out to be defective.",
+          "plain_language_feedback": "Handing over cash for a physical item is the textbook example of a sale of goods, not a service -- there's no service being performed on your behalf here, just a transfer of an object."
+        },
+        {
+          "option_id": "doesnt-apply-digital",
+          "label": "No -- electronics like laptops are excluded from Article 2.",
+          "is_correct": false,
+          "consequence": "You'd be wrong about a real, important legal protection you actually have.",
+          "plain_language_feedback": "There's no electronics exclusion. The statute's own \"goods\" definition turns on whether something is movable and identified -- not on what category of product it is."
+        }
+      ],
+      "governing_sections": [
+        "8.2-102",
+        "8.2-105"
+      ],
+      "governing_citations": [
+        "Va. Code Ann. § 8.2-102",
+        "Va. Code Ann. § 8.2-105"
+      ],
+      "professional_terminology": {
+        "goods": "The legal term for a movable, physical thing that can be bought and sold under Article 2.",
+        "scope": "Which transactions a statute actually governs."
+      },
+      "reasoning_chain": [
+        "§ 8.2-102: Article 2 applies to \"transactions in goods.\"",
+        "§ 8.2-105(1): \"Goods\" means things that are movable at the time of identification to the contract.",
+        "A laptop is a movable, physical object being sold for money -> it is \"goods\" -> Article 2 applies."
+      ],
+      "common_mistakes": [
+        "Assuming Article 2 only covers large/commercial purchases -- it applies to a single consumer purchase just as much.",
+        "Confusing a sale of goods with a service contract."
+      ],
+      "documents_provided": [],
+      "hidden_or_irrelevant_facts": [],
+      "difficulty": 1,
+      "next_task_id": "a2-t2-order-inventory",
+      "prerequisite_task_id": null
+    },
+    {
+      "task_id": "a2-t2-order-inventory",
+      "scenario": "You run a small retail shop. You email a supplier ordering 200 phone cases, and the supplier ships them with an invoice attached. Neither side signed a single combined contract document.",
+      "learner_role": "small-business buyer",
+      "objective": "Inspect the real commercial documents and determine your basic rights and obligations.",
+      "facts_provided": [
+        "You emailed an order; the supplier shipped goods and an invoice in response.",
+        "No single signed contract document exists.",
+        "The supplier regularly sells phone cases as part of its business."
+      ],
+      "options": [
+        {
+          "option_id": "contract-formed-by-conduct",
+          "label": "A real contract formed -- the order and shipment together show agreement.",
+          "is_correct": true,
+          "consequence": "You correctly treat this as a binding deal -- both sides now have real obligations.",
+          "plain_language_feedback": "You don't need one signed master document. Sending an order and then shipping/accepting goods in response is exactly the kind of conduct the statute says can form a contract."
+        },
+        {
+          "option_id": "no-contract-no-signature",
+          "label": "No contract exists -- nothing was ever signed by both parties.",
+          "is_correct": false,
+          "consequence": "You'd wrongly treat a real, binding deal as if it weren't one.",
+          "plain_language_feedback": "A signature isn't required. The statute is explicit that conduct recognizing a contract's existence -- like ordering and then shipping/accepting goods -- is enough."
+        },
+        {
+          "option_id": "no-contract-open-terms",
+          "label": "No contract exists -- price, delivery date, and other terms were never pinned down.",
+          "is_correct": false,
+          "consequence": "You'd overestimate how much certainty the law actually requires before a deal is binding.",
+          "plain_language_feedback": "Leaving some terms open doesn't defeat contract formation as long as the parties intended to deal and there's a reasonably certain basis for a remedy if something goes wrong."
+        }
+      ],
+      "governing_sections": [
+        "8.2-104",
+        "8.2-204"
+      ],
+      "governing_citations": [
+        "Va. Code Ann. § 8.2-104",
+        "Va. Code Ann. § 8.2-204"
+      ],
+      "professional_terminology": {
+        "merchant": "A person or business that regularly deals in the kind of goods involved, or otherwise holds itself out as having relevant expertise.",
+        "formation": "The legal moment/mechanism by which a contract comes into existence."
+      },
+      "reasoning_chain": [
+        "§ 8.2-204(1): A contract for sale may be made in any manner sufficient to show agreement, including conduct by both parties.",
+        "§ 8.2-204(3): A contract doesn't fail for indefiniteness merely because some terms are left open.",
+        "Ordering, then shipping and accepting goods, is conduct recognizing a deal -> a real contract formed.",
+        "§ 8.2-104(1): the supplier, dealing in phone cases as its business, is a \"merchant\" -- relevant to what obligations attach next."
+      ],
+      "common_mistakes": [
+        "Assuming a contract always needs one signed document.",
+        "Assuming open terms automatically void a deal."
+      ],
+      "documents_provided": [
+        "Your email order",
+        "The supplier's invoice"
+      ],
+      "hidden_or_irrelevant_facts": [],
+      "difficulty": 2,
+      "next_task_id": "a2-t3-nonconforming-delivery",
+      "prerequisite_task_id": "a2-t1-buy-a-laptop"
+    },
+    {
+      "task_id": "a2-t3-nonconforming-delivery",
+      "scenario": "The 200 phone cases arrive, but 60 of them are the wrong color -- not what you ordered. The rest are correct. You need to decide what to do with the shipment.",
+      "learner_role": "operations/procurement",
+      "objective": "Choose your real, legally available response to a nonconforming delivery.",
+      "facts_provided": [
+        "200 units ordered; 60 arrived nonconforming, 140 arrived as ordered.",
+        "The shipment is a single delivery, not an installment contract.",
+        "Nothing in your deal changes the ordinary rules on delivery."
+      ],
+      "options": [
+        {
+          "option_id": "reject-whole",
+          "label": "Reject the whole shipment.",
+          "is_correct": false,
+          "consequence": "You send back all 200 units, including the 140 that were correct -- a real, available option, but not the only one, and not chosen here as \"the\" answer since two other real options also exist.",
+          "plain_language_feedback": "This is a real, legally available choice -- but it's not your only one, and rejecting everything isn't required just because part of the shipment was wrong."
+        },
+        {
+          "option_id": "accept-whole",
+          "label": "Accept the whole shipment as-is.",
+          "is_correct": false,
+          "consequence": "You keep all 200 units, including the 60 wrong-color ones, without formally addressing the defect.",
+          "plain_language_feedback": "Also real and available -- but it means living with the nonconforming units unless you separately pursue a remedy for them."
+        },
+        {
+          "option_id": "accept-conforming-reject-rest",
+          "label": "Accept the 140 correct units; reject the 60 nonconforming ones.",
+          "is_correct": true,
+          "consequence": "You keep what you can use and send back only the defective units -- the statute names this exact option.",
+          "plain_language_feedback": "The statute gives you this precise middle option: accept whichever commercial unit(s) conform and reject the rest, rather than an all-or-nothing choice."
+        },
+        {
+          "option_id": "keep-using-silently",
+          "label": "Keep using all 200 units without formally accepting or rejecting anything.",
+          "is_correct": false,
+          "consequence": "You lose the clean benefit of any of the statute's real options by never actually exercising one.",
+          "plain_language_feedback": "This is the real, common mistake: continuing to use nonconforming goods without ever formally accepting or rejecting can itself function as acceptance, forfeiting your cleaner options."
+        }
+      ],
+      "governing_sections": [
+        "8.2-601"
+      ],
+      "governing_citations": [
+        "Va. Code Ann. § 8.2-601"
+      ],
+      "professional_terminology": {
+        "commercial unit": "A unit of goods that commercial usage treats as a single whole for sale/division purposes.",
+        "nonconforming": "Goods or delivery that fail to match the contract in some respect.",
+        "reject": "A buyer's formal refusal to accept goods that fail to conform to the contract."
+      },
+      "reasoning_chain": [
+        "§ 8.2-601: if goods or tender of delivery fail in any respect to conform, the buyer may (a) reject the whole, (b) accept the whole, or (c) accept any commercial unit(s) and reject the rest.",
+        "60 nonconforming units + 140 conforming units is exactly the fact pattern (c) addresses.",
+        "Accepting the 140 and rejecting the 60 uses the statute's own named middle option."
+      ],
+      "common_mistakes": [
+        "Treating this as a forced all-or-nothing choice between full acceptance and full rejection.",
+        "Continuing to use nonconforming goods without ever formally accepting or rejecting them."
+      ],
+      "documents_provided": [],
+      "hidden_or_irrelevant_facts": [
+        "The supplier's reason for shipping the wrong color is not legally relevant to which options are available to you."
+      ],
+      "difficulty": 3,
+      "next_task_id": "a2-t4-transfer-warranty",
+      "prerequisite_task_id": "a2-t2-order-inventory"
+    },
+    {
+      "task_id": "a2-t4-transfer-warranty",
+      "scenario": "A different supplier ships you 50 industrial shelving units. Their catalog description said \"heavy-duty, rated for 500 lbs per shelf.\" When they arrive, several shelves visibly bow under far less weight.",
+      "learner_role": "operations/procurement (transfer)",
+      "objective": "Apply what you already know about nonconforming goods to a NEW fact pattern that also raises a concept you haven't been told about yet -- recognize it yourself.",
+      "facts_provided": [
+        "The supplier's catalog described the shelving as \"rated for 500 lbs per shelf.\"",
+        "The delivered shelves bow well under that weight.",
+        "This is a different product and a different supplier than the earlier tasks."
+      ],
+      "options": [
+        {
+          "option_id": "just-nonconforming-delivery",
+          "label": "Treat this only as a nonconforming-delivery problem, exactly like the phone cases.",
+          "is_correct": false,
+          "consequence": "You'd miss a second, independent problem: the catalog's own description created a promise the shelves don't keep.",
+          "plain_language_feedback": "The delivery-response menu (reject/accept/accept-and-reject-part) still applies -- but there's more going on here than just nonconformity at delivery."
+        },
+        {
+          "option_id": "description-created-warranty",
+          "label": "The catalog's \"rated for 500 lbs\" description created an express warranty the shelves failed to meet.",
+          "is_correct": true,
+          "consequence": "You correctly spot that a specific factual description became part of the deal, and the goods didn't match it.",
+          "plain_language_feedback": "A seller's description of goods, made part of the basis of the bargain, creates an express warranty that the goods will match that description -- the seller didn't need to use the word \"warranty\" for this to count."
+        },
+        {
+          "option_id": "no-legal-issue-just-bad-luck",
+          "label": "There's no separate legal issue here -- products sometimes just don't perform as expected.",
+          "is_correct": false,
+          "consequence": "You'd give up a real, statute-backed claim by treating a specific, factual promise as mere bad luck.",
+          "plain_language_feedback": "A specific, factual capacity claim like \"rated for 500 lbs\" is exactly the kind of affirmation the statute treats as creating an express warranty -- not just marketing puffery."
+        }
+      ],
+      "governing_sections": [
+        "8.2-601",
+        "8.2-313"
+      ],
+      "governing_citations": [
+        "Va. Code Ann. § 8.2-601",
+        "Va. Code Ann. § 8.2-313"
+      ],
+      "professional_terminology": {
+        "express warranty": "A promise about the goods, created by the seller's own affirmation, description, or sample, that becomes part of the deal.",
+        "basis of the bargain": "A statement specific and factual enough that it became part of what the buyer was actually promised."
+      },
+      "reasoning_chain": [
+        "Same delivery-response menu as Task 3 (§ 8.2-601) still applies to the nonconforming shelves.",
+        "§ 8.2-313(1)(b): a description of the goods made part of the basis of the bargain creates an express warranty that the goods conform to it.",
+        "\"Rated for 500 lbs per shelf\" is a specific, factual description, not vague opinion -> it created an express warranty.",
+        "The shelves bowing under far less weight -> the express warranty was breached, independent of the ordinary nonconformity analysis."
+      ],
+      "common_mistakes": [
+        "Missing that a catalog description (not just a spoken promise) can create a warranty.",
+        "Treating every product failure as \"just bad luck\" rather than checking whether a specific factual claim was made."
+      ],
+      "documents_provided": [],
+      "hidden_or_irrelevant_facts": [],
+      "difficulty": 4,
+      "next_task_id": null,
+      "prerequisite_task_id": "a2-t3-nonconforming-delivery"
+    }
+  ]
+}

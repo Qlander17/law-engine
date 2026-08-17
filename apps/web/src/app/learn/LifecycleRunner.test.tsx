@@ -126,4 +126,36 @@ describe("LifecycleRunner", () => {
     expect(screen.getByText("End of this lifecycle.")).toBeInTheDocument();
     expect(screen.queryByText(/Next stage/)).not.toBeInTheDocument();
   });
+
+  // Live Run 1.48 regression guard: the real, Chairman-observed bug was
+  // answer buttons carrying an explicit light background with NO explicit
+  // text color, so a dark-mode browser's own default (light) button text
+  // rendered invisible against it until the button became disabled. Every
+  // answer button must always carry the shared, explicit-color class --
+  // never fall back to an unstyled <button> with only a background set.
+  it("every answer button always has an explicit, readable text-color class -- before and after selection", () => {
+    render(<LifecycleRunner lifecycle={FIXTURE} />);
+    const yesButton = screen.getByText("Yes, this is correct").closest("button")!;
+    const noButton = screen.getByText("No, this is wrong").closest("button")!;
+
+    expect(yesButton.className).toMatch(/answerButton/);
+    expect(noButton.className).toMatch(/answerButton/);
+
+    fireEvent.click(yesButton);
+
+    // The chosen, correct button gets the correct-state class (still an
+    // explicit, readable color); the unchosen button reverts to the plain
+    // answerButton class -- never becomes a bare, uncolored <button>.
+    expect(yesButton.className).toMatch(/answerButtonCorrect/);
+    expect(noButton.className).toMatch(/answerButton/);
+    expect(noButton.className).not.toMatch(/answerButtonCorrect|answerButtonIncorrect/);
+  });
+
+  it("marks the chosen wrong answer with the incorrect-state class, not the correct-state class", () => {
+    render(<LifecycleRunner lifecycle={FIXTURE} />);
+    const noButton = screen.getByText("No, this is wrong").closest("button")!;
+    fireEvent.click(noButton);
+    expect(noButton.className).toMatch(/answerButtonIncorrect/);
+    expect(noButton.className).not.toMatch(/answerButtonCorrect/);
+  });
 });

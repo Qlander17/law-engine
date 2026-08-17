@@ -33,6 +33,8 @@ export default async function LearnPage({
           <Link href="/learn/orientation">UCC orientation</Link>
           {" · "}
           <Link href="/learn/practice">Practice</Link>
+          {" · "}
+          <Link href="/learn/tasks">Task Ladder</Link>
         </p>
         <p style={{ fontSize: "0.9rem", color: "#555" }}>
           {LIFECYCLES.map((l, i) => (

@@ -1,0 +1,55 @@
+/*
+  Shared answer-button styling for /learn's interactive exercises
+  (LifecycleRunner.tsx, practice/PracticeRunner.tsx). Live Run 1.48 fix:
+  these buttons previously set only a hardcoded light `background` with
+  no explicit `color` at all. On a dark-mode OS/browser (the Chairman's
+  real reported environment), the browser's own default form-control
+  text color follows the dark color scheme -- light/white text -- which
+  was then invisible against the hardcoded light background until the
+  button became `disabled` (which happens to render with different,
+  more-visible default text in the browsers tested). Root cause was
+  color, not background -- background was already fine.
+
+  Fix: an explicit, fixed, high-contrast text color per state, so
+  readability never depends on the OS/browser color scheme the buttons
+  themselves don't otherwise adapt to (their light backgrounds are
+  intentionally fixed, not theme-aware -- this only adds the missing
+  half of that same fixed-color design, not a redesign).
+*/
+
+.answerButton {
+  text-align: left;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  color: #1a1a1a;
+  font: inherit;
+  cursor: pointer;
+}
+
+.answerButton:hover:not(:disabled) {
+  background: #f2f2f2;
+  border-color: #999;
+}
+
+.answerButton:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+.answerButton:disabled {
+  cursor: default;
+}
+
+.answerButtonCorrect {
+  background: #e6f4ea;
+  color: #14532d;
+  border-color: #86c199;
+}
+
+.answerButtonIncorrect {
+  background: #fdecea;
+  color: #7f1d1d;
+  border-color: #e3a19c;
+}

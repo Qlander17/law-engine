@@ -13,6 +13,7 @@ import type { TransactionLifecycle } from "@/types/lifecycle";
 import type { SentenceAnalysis, SyntaxAnalysisMap } from "@/types/syntaxAnalysis";
 import type { UccOrientation } from "@/types/orientation";
 import type { PracticeSet } from "@/types/practice";
+import type { TaskLadder } from "@/types/task";
 
 const LAW_ENGINE_ROOT = path.resolve(process.cwd(), "..", "..");
 const NORMALIZED_UCC_DIR = path.join(LAW_ENGINE_ROOT, "library", "normalized", "ucc");
@@ -57,6 +58,22 @@ const PRACTICE_PATH = path.join(
 export async function getPracticeSet(): Promise<PracticeSet> {
   const raw = await fs.readFile(PRACTICE_PATH, "utf-8");
   return JSON.parse(raw) as PracticeSet;
+}
+
+const TASK_LADDER_PATH = path.join(
+  LAW_ENGINE_ROOT,
+  "library",
+  "normalized",
+  "tasks",
+  "article-2-consumer-to-operator-ladder.json"
+);
+
+// Live Run 1.48 -- the first real Task Ladder (services/tasks.py),
+// implementing the Task-First pedagogy Live Run 1.47B designed but
+// deliberately did not build.
+export async function getTaskLadder(): Promise<TaskLadder> {
+  const raw = await fs.readFile(TASK_LADDER_PATH, "utf-8");
+  return JSON.parse(raw) as TaskLadder;
 }
 
 // Live Run 1.45 -- real, disclosed fix for a real, live bug found by

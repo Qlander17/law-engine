@@ -9,9 +9,15 @@
 
 import { useState } from "react";
 import type { LifecycleChoice, TransactionLifecycle } from "@/types/lifecycle";
+import styles from "./AnswerButton.module.css";
 
 interface Props {
   lifecycle: TransactionLifecycle;
+}
+
+function answerButtonClassName(chosen: boolean, isChosen: boolean, isCorrectChoice: boolean): string {
+  if (!chosen || !isChosen) return styles.answerButton;
+  return `${styles.answerButton} ${isCorrectChoice ? styles.answerButtonCorrect : styles.answerButtonIncorrect}`;
 }
 
 export default function LifecycleRunner({ lifecycle }: Props) {
@@ -45,20 +51,12 @@ export default function LifecycleRunner({ lifecycle }: Props) {
       <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
         {stage.choices.map((choice) => {
           const isChosen = selected?.label === choice.label;
-          const bg = !selected ? "#fff" : isChosen ? (choice.is_correct ? "#e6f4ea" : "#fdecea") : "#fff";
           return (
             <button
               key={choice.label}
               onClick={() => selectChoice(choice)}
               disabled={selected !== null}
-              style={{
-                textAlign: "left",
-                padding: "0.75rem",
-                border: "1px solid #ccc",
-                borderRadius: 6,
-                background: bg,
-                cursor: selected ? "default" : "pointer",
-              }}
+              className={answerButtonClassName(selected !== null, isChosen, choice.is_correct)}
             >
               {choice.label}
             </button>

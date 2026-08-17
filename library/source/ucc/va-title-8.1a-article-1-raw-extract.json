@@ -1,0 +1,97 @@
+{
+  "8.1A-103": {
+    "title": "Construction of Uniform Commercial Code to promote its purposes and policies; applicability of supplemental principles of law",
+    "paragraphs": [
+      "(a) The Uniform Commercial Code shall be liberally construed and applied to promote its underlying purposes and policies, which are: (1) to simplify, clarify, and modernize the law governing commercial transactions; (2) to permit the continued expansion of commercial practices through custom, usage, and agreement of the parties; and (3) to make uniform the law among the various jurisdictions.",
+      "(b) Unless displaced by the particular provisions of the Uniform Commercial Code, the principles of law and equity, including the law merchant and the law relative to capacity to contract, principal and agent, estoppel, fraud, misrepresentation, duress, coercion, mistake, bankruptcy, and other validating or invalidating cause supplement its provisions."
+    ]
+  },
+  "8.1A-201": {
+    "title": "General definitions",
+    "paragraphs": [
+      "(a) Unless the context otherwise requires, words or phrases defined in this section, or in the additional definitions contained in other titles of the Uniform Commercial Code that apply to particular titles or parts thereof, have the meanings stated.",
+      "(b) Subject to definitions contained in other titles of the Uniform Commercial Code that apply to particular titles or parts thereof:",
+      "(1) \"Action,\" in the sense of a judicial proceeding, includes recoupment, counterclaim, set-off, suit in equity, and any other proceeding in which rights are determined.",
+      "(2) \"Aggrieved party\" means a party entitled to pursue a remedy.",
+      "(3) \"Agreement,\" as distinguished from \"contract,\" means the bargain of the parties in fact, as found in their language or inferred from other circumstances, including course of performance, course of dealing, or usage of trade as provided in § 8.1A-303.",
+      "(4) \"Bank\" means a person engaged in the business of banking and includes a savings bank, savings and loan association, credit union, and trust company.",
+      "(5) \"Bearer\" means a person in control of a negotiable electronic document or a person in possession of a negotiable instrument, negotiable tangible document of title, or certificated security that is payable to bearer or endorsed in blank.",
+      "(6) \"Bill of lading\" means a document evidencing the receipt of goods for shipment issued by a person engaged in the business of directly or indirectly transporting or forwarding goods. The term does not include a warehouse receipt.",
+      "(7) \"Branch\" includes a separately incorporated foreign branch of a bank.",
+      "(8) \"Burden of establishing\" a fact means the burden of persuading the trier of fact that the existence of the fact is more probable than its nonexistence.",
+      "(9) \"Buyer in ordinary course of business\" means a person that buys goods in good faith, without knowledge that the sale violates the rights of another person in the goods, and in the ordinary course from a person, other than a pawnbroker, in the business of selling goods of that kind. A person buys goods in the ordinary course if the sale to the person comports with the usual or customary practices in the kind of business in which the seller is engaged or with the seller's own usual or customary practices. A person that sells oil, gas, or other minerals at the wellhead or minehead is a person in the business of selling goods of that kind. A buyer in ordinary course of business may buy for cash, by exchange of other property, or on secured or unsecured credit, and may acquire goods or documents of title under a preexisting contract for sale. Only a buyer that takes possession of the goods or has a right to recover the goods from the seller under Title 8.2 may be a buyer in ordinary course of business. \"Buyer in ordinary course of business\" does not include a person that acquires goods in a transfer in bulk or as security for or in total or partial satisfaction of a money debt.",
+      "(10) \"Conspicuous,\" with reference to a term, means so written, displayed, or presented that, based on the totality of the circumstances, a reasonable person against whom it is to operate ought to have noticed it. Whether a term is \"conspicuous\" or not is a decision for the court.",
+      "(11) \"Consumer\" means an individual who enters into a transaction primarily for personal, family, or household purposes.",
+      "(12) \"Contract,\" as distinguished from \"agreement,\" means the total legal obligation that results from the parties' agreement as determined by the Uniform Commercial Code as supplemented by any other applicable laws.",
+      "(13) \"Creditor\" includes a general creditor, a secured creditor, a lien creditor, and any representative of creditors, including an assignee for the benefit of creditors, a trustee in bankruptcy, a receiver in equity, and an executor or administrator of an insolvent debtor's or assignor's estate.",
+      "(14) \"Defendant\" includes a person in the position of defendant in a counterclaim, cross-claim, or third-party claim.",
+      "(15) \"Delivery,\" with respect to an electronic document of title means voluntary transfer of control and with respect to an instrument, a tangible document of title, or an authoritative tangible copy of a record evidencing chattel paper, means voluntary transfer of possession.",
+      "(16) \"Document of title\" means a record (i) that in the regular course of business or financing is treated as adequately evidencing that the person in possession or control of the record is entitled to receive, control, hold, and dispose of the record and the goods it covers and (ii) that purports to be issued by or addressed to a bailee and to cover goods in the bailee's possession that are either identified or are fungible portions of an identified mass. The term includes a bill of lading, transport document, dock warrant, dock receipt, warehouse receipt, and order for delivery of goods. An electronic document of title means a document of title evidenced by a record consisting of information stored in an electronic medium. A tangible document of title means a document of title evidenced by a record consisting of information that is inscribed on a tangible medium.",
+      "(16A) \"Electronic\" means relating to technology having electrical, digital, magnetic, wireless, optical, electromagnetic, or similar capabilities.",
+      "(17) \"Fault\" means a default, breach, or wrongful act or omission.",
+      "(18) \"Fungible goods\" means:",
+      "(A) goods of which any unit, by nature or usage of trade, is the equivalent of any other like unit; or",
+      "(B) goods that by agreement are treated as equivalent.",
+      "(19) \"Genuine\" means free of forgery or counterfeiting.",
+      "(20) \"Good faith\" means honesty in fact in the conduct or transaction concerned.",
+      "(21) \"Holder\" means:",
+      "(A) the person in possession of a negotiable instrument that is payable either to bearer or to an identified person that is the person in possession;",
+      "(B) the person in possession of a negotiable tangible document of title if the goods are deliverable either to bearer or to the order of the person in possession; or",
+      "(C) the person in control, other than pursuant to § 8.7-106(g), of a negotiable electronic document of title.",
+      "(22) \"Insolvency proceeding\" includes an assignment for the benefit of creditors or other proceeding intended to liquidate or rehabilitate the estate of the person involved.",
+      "(23) \"Insolvent\" means:",
+      "(A) having generally ceased to pay debts in the ordinary course of business other than as a result of bona fide dispute;",
+      "(B) being unable to pay debts as they become due; or",
+      "(C) being insolvent within the meaning of federal bankruptcy law.",
+      "(24) \"Money\" means a medium of exchange that is currently authorized or adopted by a domestic or foreign government. The term includes a monetary unit of account established by an intergovernmental organization or by agreement between two or more countries. The term does not include an electronic record that is a medium of exchange recorded and transferable in a system that existed and operated for the medium of exchange before the medium of exchange was authorized or adopted by the government.",
+      "(25) \"Organization\" means a person other than an individual.",
+      "(26) \"Party,\" as distinguished from \"third party,\" means a person that has engaged in a transaction or made an agreement subject to the Uniform Commercial Code.",
+      "(27) \"Person\" means an individual, corporation, business trust, estate, trust, partnership, limited liability company, association, joint venture, government, governmental subdivision, agency, or instrumentality, or any other legal or commercial entity. The term includes a protected series, however denominated, of an entity if the protected series is established under law other than the Commercial Code, Title 8.1A through Title 8.13, that limits, or limits if conditions specified under the law are satisfied, the ability of a creditor of the entity or of any other protected series of the entity to satisfy a claim from assets of the protected series.",
+      "(28) \"Present value\" means the amount as of a date certain of one or more sums payable in the future, discounted to the date certain by use of either an interest rate specified by the parties if that rate is not manifestly unreasonable at the time the transaction is entered into or, if an interest rate is not so specified, a commercially reasonable rate that takes into account the facts and circumstances at the time the transaction is entered into.",
+      "(29) \"Purchase\" means taking by sale, lease, discount, negotiation, mortgage, pledge, lien, security interest, issue or reissue, gift, or any other voluntary transaction creating an interest in property.",
+      "(30) \"Purchaser\" means a person that takes by purchase.",
+      "(31) \"Record\" means information that is inscribed on a tangible medium or that is stored in an electronic or other medium and is retrievable in perceivable form.",
+      "(32) \"Remedy\" means any remedial right to which an aggrieved party is entitled with or without resort to a tribunal.",
+      "(33) \"Representative\" means a person empowered to act for another, including an agent, an officer of a corporation or association, and a trustee, executor, or administrator of an estate.",
+      "(34) \"Right\" includes remedy.",
+      "(35) \"Security interest\" means an interest in personal property or fixtures that secures payment or performance of an obligation. \"Security interest\" includes any interest of a consignor and a buyer of accounts, chattel paper, a payment intangible, or a promissory note in a transaction that is subject to Title 8.9A. \"Security interest\" does not include the special property interest of a buyer of goods on identification of those goods to a contract for sale under § 8.2-401, but a buyer may also acquire a \"security interest\" by complying with Title 8.9A. Except as otherwise provided in § 8.2-505, the right of a seller or lessor of goods under Title 8.2 or Title 8.2A to retain or acquire possession of the goods is not a \"security interest,\" but a seller or lessor may also acquire a \"security interest\" by complying with Title 8.9A. The retention or reservation of title by a seller of goods notwithstanding shipment or delivery to the buyer under § 8.2-401 is limited in effect to a reservation of a \"security interest.\" Whether a transaction in the form of a lease creates a \"security interest\" is determined pursuant to § 8.1A-203.",
+      "(36) \"Send\" in connection with a record or notification means:",
+      "(A) to deposit in the mail, deliver for transmission, or transmit by any other usual means of communication, with postage or cost of transmission provided for, addressed to any address reasonable under the circumstances; or",
+      "(B) to cause the record or notification to be received within the time it would have been received if properly sent under subparagraph (A).",
+      "(37) \"Sign\" means, with present intent to authenticate or adopt a record:",
+      "(A) execute or adopt a tangible symbol; or",
+      "(B) attach to or logically associate with the record an electronic symbol, sound, or process. \"Signed,\" \"signing,\" and \"signature\" have corresponding meanings.",
+      "(38) \"State\" means a state of the United States, the District of Columbia, Puerto Rico, the United States Virgin Islands, or any territory or insular possession subject to the jurisdiction of the United States.",
+      "(39) \"Surety\" includes a guarantor or other secondary obligor.",
+      "(40) \"Term\" means a portion of an agreement that relates to a particular matter.",
+      "(41) \"Unauthorized signature\" means a signature made without actual, implied, or apparent authority. The term includes a forgery.",
+      "(42) \"Warehouse receipt\" means a document of title issued by a person engaged in the business of storing goods for hire.",
+      "(43) \"Writing\" includes printing, typewriting, or any other intentional reduction to tangible form. \"Written\" has a corresponding meaning."
+    ]
+  },
+  "8.1A-301": {
+    "title": "Territorial applicability; parties' power to choose applicable law",
+    "paragraphs": [
+      "(a) This section applies to a transaction to the extent that it is governed by another title of the Uniform Commercial Code.",
+      "(b) Except as otherwise provided in this section, when a transaction bears a reasonable relation to this state and also to another state or nation the parties may agree that the law either of this state or such other state or nation shall govern their rights and duties.",
+      "(c) In the absence of an agreement effective under subsection (b), the rights and obligations of the parties are determined by the law that would be selected by application of this State's conflict of laws principles.",
+      "(d) To the extent that the Uniform Commercial Code governs a transaction, if one of the following provisions of the Uniform Commercial Code specifies the applicable law, that provision governs and a contrary agreement is effective only to the extent permitted by the law so specified:",
+      "(1) Rights of creditors against sold goods. § 8.2-402;",
+      "(2) Applicability of the title on leases. §§ 8.2A-105 and 8.2A-106;",
+      "(3) Applicability of the title on bank deposits and collections. § 8.4-102;",
+      "(4) Applicability of the title on funds transfers. § 8.4A-507;",
+      "(5) Letters of credit. § 8.5A-116;",
+      "(6) Applicability of the title on investment securities. § 8.8A-110;",
+      "(7) Law governing perfection, the effect of perfection or nonperfection, and the priority of security interests and agricultural liens. §§ 8.9A-301 through 8.9A-307;",
+      "(8) Controllable Electronic Records. § 8.12-107."
+    ]
+  },
+  "8.1A-302": {
+    "title": "Variation by agreement",
+    "paragraphs": [
+      "(a) Except as otherwise provided in subsection (b) or elsewhere in the Uniform Commercial Code, the effect of provisions of the Uniform Commercial Code may be varied by agreement.",
+      "(b) The obligations of good faith, diligence, reasonableness, and care prescribed by the Uniform Commercial Code may not be disclaimed by agreement. The parties, by agreement, may determine the standards by which the performance of those obligations is to be measured if those standards are not manifestly unreasonable. Whenever the Uniform Commercial Code requires an action to be taken within a reasonable time, a time that is not manifestly unreasonable may be fixed by agreement.",
+      "(c) The presence in certain provisions of the Uniform Commercial Code of the phrase 'unless otherwise agreed,' or words of similar import, does not imply that the effect of other provisions may not be varied by agreement under this section."
+    ]
+  }
+}

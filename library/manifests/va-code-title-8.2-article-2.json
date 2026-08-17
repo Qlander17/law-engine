@@ -1,0 +1,26 @@
+{
+  "document_id": "va-code-title-8.2-article-2",
+  "title": "Code of Virginia, Title 8.2 (Commercial Code -- Sales), Article 2 sections (vertical-slice subset)",
+  "authority_type": "STATUTE",
+  "jurisdiction": "Commonwealth of Virginia",
+  "citation": "Va. Code Ann. §§ 8.2-102, 8.2-104, 8.2-105, 8.2-204, 8.2-206, 8.2-207, 8.2-313, 8.2-314, 8.2-601, 8.2-703, 8.2-711",
+  "official_source_url": "https://law.lis.virginia.gov/vacode/title8.2/",
+  "publisher": "Commonwealth of Virginia, Division of Legislative Automated Systems",
+  "retrieval_timestamp": "2026-08-16T09:25:29.000213",
+  "sha256_hash": "a478370eede77b96f8e49f2210f51dfadac6c043f306769c6bdbebd417936dd6",
+  "verification_status": "SOURCE_VERIFIED",
+  "court": null,
+  "publication_or_effective_date": null,
+  "version": "1",
+  "superseded": false,
+  "licensing_status": "public domain -- enacted state statute (edict of government), not the separately-copyrighted ALI/ULC official UCC text",
+  "source_layer": "ENACTMENT",
+  "topics": [
+    "ucc",
+    "article-2",
+    "sale-of-goods",
+    "commercial-law"
+  ],
+  "cross_references": [],
+  "notes": "Real, disclosed subset: 11 of Article 2's real sections, chosen to demonstrate scope, merchant status, contract formation, offer/acceptance, warranties, and breach/remedies -- not the full Article. Retrieved directly from law.lis.virginia.gov (raw HTML), not from any secondary or AI-summarized source, specifically to keep the statutory text verbatim."
+}

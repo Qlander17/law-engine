@@ -1,0 +1,131 @@
+{
+  "lifecycle_id": "consumer-goods-purchase-v1",
+  "title": "Consumer goods purchase: a used laptop sale",
+  "stages": [
+    {
+      "stage_id": "threshold-scope",
+      "title": "Is this even an Article 2 transaction?",
+      "facts": "A buyer emails a local electronics store asking to buy a specific used laptop the store has listed for $800.",
+      "question": "Is a laptop \"goods\" under Article 2, making this a sale-of-goods transaction?",
+      "choices": [
+        {
+          "label": "Yes -- a laptop is a movable, identified thing, so it's \"goods\"",
+          "is_correct": true,
+          "outcome": "Va. Code Ann. § 8.2-105 defines \"goods\" as things movable at the time of identification to the contract -- a specific physical laptop fits this directly.",
+          "section_id": "8.2-105",
+          "citation": "Va. Code Ann. § 8.2-105"
+        },
+        {
+          "label": "No -- Article 2 only covers goods sold between businesses, not to an individual buyer",
+          "is_correct": false,
+          "outcome": "Va. Code Ann. § 8.2-105's definition of \"goods\" turns on what's being sold (a movable, identified thing), not on whether the buyer is a business -- nothing in the definition excludes an individual buyer.",
+          "section_id": "8.2-105",
+          "citation": "Va. Code Ann. § 8.2-105"
+        }
+      ],
+      "explanation": "Va. Code Ann. § 8.2-105: \"Goods\" means all things (including specially manufactured goods) which are movable at the time of identification to the contract for sale.",
+      "section_id": "8.2-105",
+      "citation": "Va. Code Ann. § 8.2-105",
+      "changed_fact_variants": []
+    },
+    {
+      "stage_id": "formation",
+      "title": "Is there a binding contract?",
+      "facts": "The buyer's email said \"I'll take it for $800.\" The seller never signed anything -- they just shipped the laptop the next day.",
+      "question": "Does a binding contract exist without a signed writing?",
+      "choices": [
+        {
+          "label": "Yes -- shipping the laptop is conduct showing agreement, and open/unwritten terms don't defeat formation",
+          "is_correct": true,
+          "outcome": "Va. Code Ann. § 8.2-204 allows a contract to be shown \"in any manner sufficient to show agreement, including conduct by both parties,\" and tolerates open terms if the parties intended a contract and a remedy is reasonably certain.",
+          "section_id": "8.2-204",
+          "citation": "Va. Code Ann. § 8.2-204"
+        },
+        {
+          "label": "No -- without a signed writing covering every term, there's no contract yet",
+          "is_correct": false,
+          "outcome": "Va. Code Ann. § 8.2-204 explicitly rejects this: a sale-of-goods contract can be shown by conduct, and doesn't fail for indefiniteness merely because some terms were left open.",
+          "section_id": "8.2-204",
+          "citation": "Va. Code Ann. § 8.2-204"
+        }
+      ],
+      "explanation": "Va. Code Ann. § 8.2-204: a contract for sale of goods may be made in any manner sufficient to show agreement, including conduct by both parties which recognizes the existence of such a contract.",
+      "section_id": "8.2-204",
+      "citation": "Va. Code Ann. § 8.2-204",
+      "changed_fact_variants": [
+        {
+          "changed_fact": "What if, instead of just shipping, the seller had replied with a written confirmation adding a new term -- \"all sales final, no returns\" -- and both the buyer and seller are merchants dealing in goods of this kind?",
+          "effect": "Va. Code Ann. § 8.2-206 treats a seasonable expression of acceptance as an acceptance even with additional terms; Va. Code Ann. § 8.2-207 then asks whether that new term became part of the contract -- between merchants it does, UNLESS the offer expressly limited acceptance to its own terms, the new term materially alters the deal (a no-returns clause plausibly would), or the buyer objects within a reasonable time.",
+          "section_id": "8.2-207",
+          "citation": "Va. Code Ann. § 8.2-207"
+        }
+      ]
+    },
+    {
+      "stage_id": "merchant-and-warranties",
+      "title": "What protections come with the purchase?",
+      "facts": "The seller is a retail electronics store that regularly buys and resells used laptops. Nothing in the listing said \"as-is\" or disclaimed any warranty.",
+      "question": "Does the buyer get any warranty protection even though nothing was promised in writing?",
+      "choices": [
+        {
+          "label": "Yes -- because the seller is a merchant dealing in these goods, an implied warranty of merchantability attaches automatically",
+          "is_correct": true,
+          "outcome": "Va. Code Ann. § 8.2-104 makes this seller a \"merchant\" (occupational dealing in goods of the kind); Va. Code Ann. § 8.2-314 then implies a warranty of merchantability by operation of law for a merchant-seller unless excluded/modified.",
+          "section_id": "8.2-314",
+          "citation": "Va. Code Ann. § 8.2-314"
+        },
+        {
+          "label": "No -- without an express written warranty, the buyer has no protection at all",
+          "is_correct": false,
+          "outcome": "This misses Va. Code Ann. § 8.2-314: the warranty of merchantability is implied automatically for a merchant-seller -- the buyer doesn't need an express written warranty to get it.",
+          "section_id": "8.2-314",
+          "citation": "Va. Code Ann. § 8.2-314"
+        }
+      ],
+      "explanation": "Va. Code Ann. § 8.2-314: a warranty that the goods shall be merchantable is implied in a contract for their sale if the seller is a merchant with respect to goods of that kind.",
+      "section_id": "8.2-314",
+      "citation": "Va. Code Ann. § 8.2-314",
+      "changed_fact_variants": [
+        {
+          "changed_fact": "What if the seller were a private individual selling their own personal laptop, not a store?",
+          "effect": "Va. Code Ann. § 8.2-314's implied warranty of merchantability requires a merchant-seller -- a private, non-merchant seller does not automatically give one. But if that private seller described the laptop's condition (\"battery holds a full charge\"), Va. Code Ann. § 8.2-313 can still create an express warranty from that affirmation or description, regardless of merchant status.",
+          "section_id": "8.2-313",
+          "citation": "Va. Code Ann. § 8.2-313"
+        }
+      ]
+    },
+    {
+      "stage_id": "delivery-and-remedies",
+      "title": "The laptop arrives broken -- what now?",
+      "facts": "The laptop arrives and won't power on at all.",
+      "question": "What can the buyer do?",
+      "choices": [
+        {
+          "label": "Reject the goods (the whole shipment, since it's a single laptop) and pursue cover or damages",
+          "is_correct": true,
+          "outcome": "Va. Code Ann. § 8.2-601 lets a buyer reject the whole if the goods fail to conform to the contract; having rightfully rejected, Va. Code Ann. § 8.2-711 then lets the buyer \"cover\" (buy a replacement) and recover damages, or recover damages for nondelivery.",
+          "section_id": "8.2-711",
+          "citation": "Va. Code Ann. § 8.2-711"
+        },
+        {
+          "label": "The buyer must accept the laptop as-is and can only complain informally afterward",
+          "is_correct": false,
+          "outcome": "Va. Code Ann. § 8.2-601 gives the buyer a real right to reject nonconforming goods -- there is no rule requiring acceptance of defective goods with only an informal complaint as recourse.",
+          "section_id": "8.2-601",
+          "citation": "Va. Code Ann. § 8.2-601"
+        }
+      ],
+      "explanation": "Va. Code Ann. § 8.2-601: if the goods fail to conform to the contract, the buyer may reject the whole. Va. Code Ann. § 8.2-711: on rightful rejection, the buyer may \"cover\" and recover damages, or recover damages for nondelivery.",
+      "section_id": "8.2-711",
+      "citation": "Va. Code Ann. § 8.2-711",
+      "changed_fact_variants": [
+        {
+          "changed_fact": "What if the roles were reversed -- the laptop arrived in perfect working order, but the buyer simply refused to pay and sent it back anyway?",
+          "effect": "Va. Code Ann. § 8.2-703 governs a wrongfully rejecting buyer: the seller may withhold delivery of any remaining goods, stop delivery by a carrier, resell and recover damages, recover damages for nonacceptance (or the price in a proper case), or cancel -- the mirror image of the buyer's remedies above.",
+          "section_id": "8.2-703",
+          "citation": "Va. Code Ann. § 8.2-703"
+        }
+      ]
+    }
+  ]
+}

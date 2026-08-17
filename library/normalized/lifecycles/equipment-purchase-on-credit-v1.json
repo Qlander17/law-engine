@@ -1,0 +1,176 @@
+{
+  "lifecycle_id": "equipment-purchase-on-credit-v1",
+  "title": "Equipment purchase on credit: Article 2 sale -> Article 9 financing",
+  "stages": [
+    {
+      "stage_id": "equipment-purchase-formation",
+      "title": "A business buys equipment -- on credit",
+      "facts": "A small manufacturing business agrees to buy a $40,000 piece of production equipment from an equipment dealer. The business can't pay cash up front, so the dealer agrees to finance the purchase itself, taking a security interest in the equipment as collateral for the unpaid price.",
+      "question": "Is there a binding contract for the equipment sale, even though payment is deferred?",
+      "choices": [
+        {
+          "label": "Yes -- deferred payment doesn't defeat contract formation; the parties' agreement and conduct establish it",
+          "is_correct": true,
+          "outcome": "Va. Code Ann. § 8.2-204 allows a contract to be shown by conduct and doesn't require full payment up front -- a financed sale is still a real contract for the sale of goods under Article 2, same as a cash sale.",
+          "section_id": "8.2-204",
+          "citation": "Va. Code Ann. § 8.2-204"
+        },
+        {
+          "label": "No -- since payment is deferred, this isn't really an Article 2 sale until the balance is paid off",
+          "is_correct": false,
+          "outcome": "Va. Code Ann. § 8.2-204 draws no such distinction -- the sale-of-goods contract forms at agreement, independent of when/how payment happens. The financing arrangement is a separate, additional layer (Article 9), not a reason the sale itself isn't real yet.",
+          "section_id": "8.2-204",
+          "citation": "Va. Code Ann. § 8.2-204"
+        }
+      ],
+      "explanation": "Va. Code Ann. § 8.2-204: a contract for sale of goods may be made in any manner sufficient to show agreement; deferred/financed payment doesn't change that.",
+      "section_id": "8.2-204",
+      "citation": "Va. Code Ann. § 8.2-204",
+      "changed_fact_variants": [
+        {
+          "changed_fact": "What if the equipment dealer is not in the business of dealing in this kind of equipment -- just a one-off private seller?",
+          "effect": "Merchant status under Va. Code Ann. § 8.2-104 affects which warranty/battle-of-forms rules apply later, but not whether a contract exists here -- formation under Va. Code Ann. § 8.2-204 doesn't depend on merchant status.",
+          "section_id": "8.2-104",
+          "citation": "Va. Code Ann. § 8.2-104"
+        }
+      ]
+    },
+    {
+      "stage_id": "security-agreement-effectiveness",
+      "title": "The financing becomes its own agreement -- crossing into Article 9",
+      "facts": "Alongside the sale, the business and the dealer sign a security agreement: the business grants the dealer a security interest in the equipment until the price is paid in full.",
+      "question": "Is that security agreement effective on its own terms, separate from the underlying sale contract?",
+      "choices": [
+        {
+          "label": "Yes -- a security agreement is effective according to its own terms, between the parties and against third parties, subject to the UCC's own rules",
+          "is_correct": true,
+          "outcome": "Va. Code Ann. § 8.9A-201 says exactly this: a security agreement is effective according to its terms between the parties, against purchasers of the collateral, and against creditors, except as otherwise provided in the UCC.",
+          "section_id": "8.9A-201",
+          "citation": "Va. Code Ann. § 8.9A-201"
+        },
+        {
+          "label": "No -- a security interest isn't real until the equipment dealer files paperwork with the state",
+          "is_correct": false,
+          "outcome": "That confuses effectiveness (Va. Code Ann. § 8.9A-201) with perfection (a separate, later question -- see the next stage). The security agreement is already effective between the parties before any filing happens.",
+          "section_id": "8.9A-201",
+          "citation": "Va. Code Ann. § 8.9A-201"
+        }
+      ],
+      "explanation": "Va. Code Ann. § 8.9A-201: a security agreement is effective according to its terms between the parties, against purchasers of the collateral, and against creditors.",
+      "section_id": "8.9A-201",
+      "citation": "Va. Code Ann. § 8.9A-201",
+      "changed_fact_variants": []
+    },
+    {
+      "stage_id": "attachment",
+      "title": "Does the security interest actually attach to the equipment?",
+      "facts": "The business has signed the security agreement, has already taken possession of the equipment, and the dealer has given value (the financed purchase price).",
+      "question": "Has the security interest attached to the equipment?",
+      "choices": [
+        {
+          "label": "Yes -- value has been given, the debtor has rights in the collateral, and (via the signed agreement) it's enforceable",
+          "is_correct": true,
+          "outcome": "Va. Code Ann. § 8.9A-203 requires value given, the debtor having rights in the collateral, and an enforceable agreement (here, the signed security agreement) -- all three are satisfied, so the interest attaches.",
+          "section_id": "8.9A-203",
+          "citation": "Va. Code Ann. § 8.9A-203"
+        },
+        {
+          "label": "No -- attachment requires the financing statement to be filed first",
+          "is_correct": false,
+          "outcome": "Va. Code Ann. § 8.9A-203's attachment requirements (value, rights in collateral, enforceable agreement) say nothing about filing -- filing is a perfection concept (next stage), not an attachment requirement.",
+          "section_id": "8.9A-203",
+          "citation": "Va. Code Ann. § 8.9A-203"
+        }
+      ],
+      "explanation": "Va. Code Ann. § 8.9A-203: a security interest is enforceable against the debtor and third parties only if value has been given, the debtor has rights in the collateral, and (among other paths) an authenticated security agreement describes the collateral.",
+      "section_id": "8.9A-203",
+      "citation": "Va. Code Ann. § 8.9A-203",
+      "changed_fact_variants": []
+    },
+    {
+      "stage_id": "perfection-and-filing",
+      "title": "Attachment isn't enough on its own -- what about other creditors?",
+      "facts": "The equipment dealer wants its interest to be effective not just against the business, but against the business's other creditors and a later buyer of the equipment.",
+      "question": "What must the dealer do to perfect its security interest in the equipment?",
+      "choices": [
+        {
+          "label": "File a financing statement -- the general rule for perfecting a security interest in equipment",
+          "is_correct": true,
+          "outcome": "Va. Code Ann. § 8.9A-310 states the general rule: a financing statement must be filed to perfect a security interest, unless a specific exception applies (none of which fit ordinary equipment). Va. Code Ann. § 8.9A-308 confirms perfection requires both attachment AND satisfying the applicable perfection requirement -- filing, here.",
+          "section_id": "8.9A-310",
+          "citation": "Va. Code Ann. § 8.9A-310"
+        },
+        {
+          "label": "Nothing further -- attachment alone already protects the dealer against everyone",
+          "is_correct": false,
+          "outcome": "Va. Code Ann. § 8.9A-308 draws attachment and perfection as separate requirements -- an attached-but-unperfected security interest is vulnerable to competing claims that a perfected one would beat. Filing (or another perfection method) is a real, separate step.",
+          "section_id": "8.9A-308",
+          "citation": "Va. Code Ann. § 8.9A-308"
+        }
+      ],
+      "explanation": "Va. Code Ann. § 8.9A-308: a security interest is perfected if it has attached and all applicable perfection requirements are satisfied. Va. Code Ann. § 8.9A-310: a financing statement must be filed to perfect, absent an exception.",
+      "section_id": "8.9A-310",
+      "citation": "Va. Code Ann. § 8.9A-310",
+      "changed_fact_variants": []
+    },
+    {
+      "stage_id": "pmsi-priority",
+      "title": "Why does it matter that this loan paid for the equipment itself?",
+      "facts": "The business already has a different lender with a broader, earlier-filed security interest covering \"all equipment, now owned or later acquired.\" The equipment dealer's interest was created and perfected later, but specifically financed this particular piece of equipment.",
+      "question": "Does the earlier, broader lender automatically outrank the equipment dealer's later interest?",
+      "choices": [
+        {
+          "label": "No -- a perfected purchase-money security interest in equipment has priority over a conflicting security interest in the same goods, even one that's earlier and broader",
+          "is_correct": true,
+          "outcome": "Va. Code Ann. § 8.9A-324(a): a perfected purchase-money security interest in goods other than inventory or livestock has priority over a conflicting security interest in the same goods -- the equipment dealer's PMSI wins over the earlier blanket lien on this specific equipment.",
+          "section_id": "8.9A-324",
+          "citation": "Va. Code Ann. § 8.9A-324"
+        },
+        {
+          "label": "Yes -- first to file or perfect always wins, no exceptions",
+          "is_correct": false,
+          "outcome": "Va. Code Ann. § 8.9A-324 is itself the real, statutory exception to first-in-time priority for purchase-money interests -- \"always\" is exactly what this section refutes for goods like equipment.",
+          "section_id": "8.9A-324",
+          "citation": "Va. Code Ann. § 8.9A-324"
+        }
+      ],
+      "explanation": "Va. Code Ann. § 8.9A-324(a): a perfected purchase-money security interest in goods other than inventory or livestock has priority over a conflicting security interest in the same goods.",
+      "section_id": "8.9A-324",
+      "citation": "Va. Code Ann. § 8.9A-324",
+      "changed_fact_variants": [
+        {
+          "changed_fact": "What if the collateral were inventory instead of equipment?",
+          "effect": "Va. Code Ann. § 8.9A-324(b) imposes extra requirements for inventory PMSI priority -- perfection before the debtor receives possession, AND a signed notification sent to the holder of the conflicting interest -- a materially stricter path than the general equipment rule in subsection (a).",
+          "section_id": "8.9A-324",
+          "citation": "Va. Code Ann. § 8.9A-324"
+        }
+      ]
+    },
+    {
+      "stage_id": "default-and-disposition",
+      "title": "The business defaults -- what can the equipment dealer do?",
+      "facts": "The business falls behind on payments and is now in default under the security agreement.",
+      "question": "What can the equipment dealer (secured party) do about the equipment?",
+      "choices": [
+        {
+          "label": "Take possession of the equipment and dispose of it in a commercially reasonable manner",
+          "is_correct": true,
+          "outcome": "Va. Code Ann. § 8.9A-609: after default, a secured party may take possession of the collateral. Va. Code Ann. § 8.9A-610: the secured party may then sell, lease, license, or otherwise dispose of it, but every aspect of the disposition must be commercially reasonable.",
+          "section_id": "8.9A-609",
+          "citation": "Va. Code Ann. § 8.9A-609"
+        },
+        {
+          "label": "Nothing without a court order -- self-help repossession is never allowed",
+          "is_correct": false,
+          "outcome": "Va. Code Ann. § 8.9A-609 contemplates both judicial and nonjudicial process -- self-help repossession is a real, recognized path under Article 9 (subject to real breach-of-peace limits not modeled in this ingested subset), not categorically unavailable.",
+          "section_id": "8.9A-609",
+          "citation": "Va. Code Ann. § 8.9A-609"
+        }
+      ],
+      "explanation": "Va. Code Ann. § 8.9A-609: after default, a secured party may take possession of the collateral. Va. Code Ann. § 8.9A-610: disposition must be commercially reasonable in method, manner, time, and place.",
+      "section_id": "8.9A-610",
+      "citation": "Va. Code Ann. § 8.9A-610",
+      "changed_fact_variants": []
+    }
+  ]
+}

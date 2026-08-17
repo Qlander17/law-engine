@@ -1,0 +1,1792 @@
+{
+  "8.2-102": [
+    {
+      "text": "(1) Unless the context otherwise requires, and except as provided in subsection (3), this title applies to transactions in goods and, in the case of a hybrid transaction, it applies to the extent provided in subsection (2).",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": true,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "and"
+      ],
+      "has_conditional": true,
+      "conditional_markers_found": [
+        "unless",
+        "except as provided"
+      ],
+      "has_exception": true,
+      "exception_markers_found": [
+        "except",
+        "unless"
+      ],
+      "cross_references": [
+        "subsection (3)",
+        "subsection (2)",
+        "this title"
+      ],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(2) In a hybrid transaction:",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(a) If the sale-of-goods aspects do not predominate, only the provisions of this title that relate primarily to the sale-of-goods aspects of the transaction apply, and the provisions that relate primarily to the transaction as a whole do not apply.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": true,
+      "has_disjunction": false,
+      "has_negation": true,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "and"
+      ],
+      "has_conditional": true,
+      "conditional_markers_found": [
+        "if"
+      ],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [
+        "this title"
+      ],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(b) If the sale-of-goods aspects predominate, this title applies to the transaction but does not preclude application in appropriate circumstances of other law to aspects of the transaction that do not relate to the sale of goods.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": true,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [],
+      "has_conditional": true,
+      "conditional_markers_found": [
+        "if"
+      ],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [
+        "this title"
+      ],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(3) This title does not:",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": true,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [
+        "This title"
+      ],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(a) apply to a transaction that, even though in the form of an unconditional contract to sell or present sale, operates only to create a security interest; or",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": true,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "or"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(b) impair or repeal a statute regulating sales to consumers, farmers, or other specified classes of buyers.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": true,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "or"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "1964, c. 219; 2024, c. 652.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    }
+  ],
+  "8.2-104": [
+    {
+      "text": "(1) \"Merchant\" means a person who deals in goods of the kind or otherwise by his occupation holds himself out as having knowledge or skill peculiar to the practices or goods involved in the transaction or to whom such knowledge or skill may be attributed by his employment of an agent or broker or other intermediary who by his occupation holds himself out as having such knowledge or skill.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [
+        "may"
+      ],
+      "has_conjunction": false,
+      "has_disjunction": true,
+      "has_negation": false,
+      "defined_terms_used": [
+        "merchant"
+      ],
+      "is_mandatory": false,
+      "is_permissive": true,
+      "operative_terms_found": [
+        "or",
+        "may",
+        "means"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": true,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(2) \"Financing agency\" means a bank, finance company or other person who in the ordinary course of business makes advances against goods or documents of title or who by arrangement with either the seller or the buyer intervenes in ordinary course to make or collect payment due or claimed under the contract for sale, as by purchasing or paying the seller's draft or making advances against it or by merely taking it for collection whether or not documents of title accompany or are associated with the draft. \"Financing agency\" includes also a bank or other person who similarly intervenes between persons who are in the position of seller and buyer in respect to the goods (§ 8.2-707).",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": true,
+      "has_disjunction": true,
+      "has_negation": true,
+      "defined_terms_used": [
+        "financing agency"
+      ],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "and",
+        "or",
+        "means",
+        "includes"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [
+        "§ 8.2-707"
+      ],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": true,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(3) \"Between merchants\" means in any transaction with respect to which both parties are chargeable with the knowledge or skill of merchants.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": true,
+      "has_negation": false,
+      "defined_terms_used": [
+        "between merchants"
+      ],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "or",
+        "means"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": true,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "1964, c. 219; 2004, c. 200.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    }
+  ],
+  "8.2-105": [
+    {
+      "text": "(1) \"Goods\" means all things (including specially manufactured goods) which are movable at the time of identification to the contract for sale other than the money in which the price is to be paid, investment securities (Title 8.8A) and things in action. \"Goods\" also includes the unborn young of animals and growing crops and other identified things attached to realty as described in the section on goods to be severed from realty (§ 8.2-107).",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": true,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [
+        "goods"
+      ],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "is",
+        "and",
+        "means",
+        "includes"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": true,
+      "exception_markers_found": [
+        "other than"
+      ],
+      "cross_references": [
+        "§ 8.2-107"
+      ],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": true,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(2) Goods must be both existing and identified before any interest in them can pass. Goods which are not both existing and identified are \"future\" goods. A purported present sale of future goods or of any interest therein operates as a contract to sell.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [
+        "must",
+        "can"
+      ],
+      "has_conjunction": true,
+      "has_disjunction": true,
+      "has_negation": true,
+      "defined_terms_used": [
+        "goods",
+        "future goods"
+      ],
+      "is_mandatory": true,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "and",
+        "or",
+        "must"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": [
+        "future"
+      ]
+    },
+    {
+      "text": "(3) There may be a sale of a part interest in existing identified goods.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [
+        "may"
+      ],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [
+        "goods"
+      ],
+      "is_mandatory": false,
+      "is_permissive": true,
+      "operative_terms_found": [
+        "may"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(4) An undivided share in an identified bulk of fungible goods is sufficiently identified to be sold although the quantity of the bulk is not determined. Any agreed proportion of such a bulk or any quantity thereof agreed upon by number, weight or other measure may to the extent of the seller's interest in the bulk be sold to the buyer who then becomes an owner in common.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [
+        "may"
+      ],
+      "has_conjunction": false,
+      "has_disjunction": true,
+      "has_negation": true,
+      "defined_terms_used": [
+        "goods"
+      ],
+      "is_mandatory": false,
+      "is_permissive": true,
+      "operative_terms_found": [
+        "is",
+        "or",
+        "may"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(5) \"Lot\" means a parcel or a single article which is the subject matter of a separate sale or delivery, whether or not it is sufficient to perform the contract.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": true,
+      "has_negation": true,
+      "defined_terms_used": [
+        "lot"
+      ],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "is",
+        "or",
+        "means"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": true,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(6) \"Commercial unit\" means such a unit of goods as by commercial usage is a single whole for purposes of sale and division of which materially impairs its character or value on the market or in use. A commercial unit may be a single article (as a machine) or a set of articles (as a suite of furniture or an assortment of sizes) or a quantity (as a bale, gross, or carload) or any other unit treated in use or in the relevant market as a single whole.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [
+        "may"
+      ],
+      "has_conjunction": true,
+      "has_disjunction": true,
+      "has_negation": false,
+      "defined_terms_used": [
+        "goods",
+        "commercial unit"
+      ],
+      "is_mandatory": false,
+      "is_permissive": true,
+      "operative_terms_found": [
+        "is",
+        "and",
+        "or",
+        "may",
+        "means"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": true,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "1964, c. 219.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    }
+  ],
+  "8.2-204": [
+    {
+      "text": "(1) A contract for sale of goods may be made in any manner sufficient to show agreement, including conduct by both parties which recognizes the existence of such a contract.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [
+        "may"
+      ],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": true,
+      "operative_terms_found": [
+        "may"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(2) An agreement sufficient to constitute a contract for sale may be found even though the moment of its making is undetermined.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [
+        "may"
+      ],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": true,
+      "operative_terms_found": [
+        "is",
+        "may"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(3) Even though one or more terms are left open a contract for sale does not fail for indefiniteness if the parties have intended to make a contract and there is a reasonably certain basis for giving an appropriate remedy.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": true,
+      "has_disjunction": true,
+      "has_negation": true,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "is",
+        "and",
+        "or"
+      ],
+      "has_conditional": true,
+      "conditional_markers_found": [
+        "if"
+      ],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "1964, c. 219.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    }
+  ],
+  "8.2-206": [
+    {
+      "text": "(1) Unless otherwise unambiguously indicated by the language or circumstances",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": true,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "or"
+      ],
+      "has_conditional": true,
+      "conditional_markers_found": [
+        "unless"
+      ],
+      "has_exception": true,
+      "exception_markers_found": [
+        "unless"
+      ],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(a) an offer to make a contract shall be construed as inviting acceptance in any manner and by any medium reasonable in the circumstances;",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [
+        "shall"
+      ],
+      "has_conjunction": true,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": true,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "and",
+        "shall"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(b) an order or other offer to buy goods for prompt or current shipment shall be construed as inviting acceptance either by a prompt promise to ship or by the prompt or current shipment of conforming or nonconforming goods, but such a shipment of nonconforming goods does not constitute an acceptance if the seller seasonably notifies the buyer that the shipment is offered only as an accommodation to the buyer.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [
+        "shall"
+      ],
+      "has_conjunction": false,
+      "has_disjunction": true,
+      "has_negation": true,
+      "defined_terms_used": [],
+      "is_mandatory": true,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "is",
+        "or",
+        "shall"
+      ],
+      "has_conditional": true,
+      "conditional_markers_found": [
+        "if"
+      ],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(2) Where the beginning of a requested performance is a reasonable mode of acceptance an offeror who is not notified of acceptance within a reasonable time may treat the offer as having lapsed before acceptance.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [
+        "may"
+      ],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": true,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": true,
+      "operative_terms_found": [
+        "is",
+        "may"
+      ],
+      "has_conditional": true,
+      "conditional_markers_found": [
+        "where"
+      ],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "1964, c. 219.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    }
+  ],
+  "8.2-207": [
+    {
+      "text": "(1) A definite and seasonable expression of acceptance or a written confirmation which is sent within a reasonable time operates as an acceptance even though it states terms additional to or different from those offered or agreed upon, unless acceptance is expressly made conditional on assent to the additional or different terms.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": true,
+      "has_disjunction": true,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "is",
+        "and",
+        "or"
+      ],
+      "has_conditional": true,
+      "conditional_markers_found": [
+        "unless"
+      ],
+      "has_exception": true,
+      "exception_markers_found": [
+        "unless"
+      ],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(2) The additional terms are to be construed as proposals for addition to the contract. Between merchants such terms become part of the contract unless:",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [],
+      "has_conditional": true,
+      "conditional_markers_found": [
+        "unless"
+      ],
+      "has_exception": true,
+      "exception_markers_found": [
+        "unless"
+      ],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(a) the offer expressly limits acceptance to the terms of the offer;",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(b) they materially alter it; or",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": true,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "or"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(c) notification of objection to them has already been given or is given within a reasonable time after notice of them is received.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": true,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "is",
+        "or"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(3) Conduct by both parties which recognizes the existence of a contract is sufficient to establish a contract for sale although the writings of the parties do not otherwise establish a contract. In such case the terms of the particular contract consist of those terms on which the writings of the parties agree, together with any supplementary terms incorporated under any other provisions of this act.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": true,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "is"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "1964, c. 219.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    }
+  ],
+  "8.2-313": [
+    {
+      "text": "(1) Express warranties by the seller are created as follows:",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(a) Any affirmation of fact or promise made by the seller to the buyer which relates to the goods and becomes part of the basis of the bargain creates an express warranty that the goods shall conform to the affirmation or promise.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [
+        "shall"
+      ],
+      "has_conjunction": true,
+      "has_disjunction": true,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": true,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "and",
+        "or",
+        "shall"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(b) Any description of the goods which is made part of the basis of the bargain creates an express warranty that the goods shall conform to the description.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [
+        "shall"
+      ],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": true,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "is",
+        "shall"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(c) Any sample or model which is made part of the basis of the bargain creates an express warranty that the whole of the goods shall conform to the sample or model.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [
+        "shall"
+      ],
+      "has_conjunction": false,
+      "has_disjunction": true,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": true,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "is",
+        "or",
+        "shall"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(2) It is not necessary to the creation of an express warranty that the seller use formal words such as \"warrant\" or \"guarantee\" or that he have a specific intention to make a warranty, but an affirmation merely of the value of the goods or a statement purporting to be merely the seller's opinion or commendation of the goods does not create a warranty.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": true,
+      "has_negation": true,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "is",
+        "or"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": [
+        "warrant",
+        "guarantee"
+      ]
+    },
+    {
+      "text": "1964, c. 219.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    }
+  ],
+  "8.2-314": [
+    {
+      "text": "(1) Unless excluded or modified (§ 8.2-316), a warranty that the goods shall be merchantable is implied in a contract for their sale if the seller is a merchant with respect to goods of that kind. Under this section the serving for value of food or drink to be consumed either on the premises or elsewhere is a sale.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [
+        "shall"
+      ],
+      "has_conjunction": false,
+      "has_disjunction": true,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": true,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "is",
+        "or",
+        "shall"
+      ],
+      "has_conditional": true,
+      "conditional_markers_found": [
+        "if",
+        "unless"
+      ],
+      "has_exception": true,
+      "exception_markers_found": [
+        "unless"
+      ],
+      "cross_references": [
+        "§ 8.2-316",
+        "this section"
+      ],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(2) Goods to be merchantable must be at least such as",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [
+        "must"
+      ],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": true,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "must"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(a) pass without objection in the trade under the contract description; and",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": true,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "and"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(b) in the case of fungible goods, are of fair average quality within the description; and",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": true,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "and"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(c) are fit for the ordinary purposes for which such goods are used; and",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": true,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "and"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(d) run, within the variations permitted by the agreement, of even kind, quality and quantity within each unit and among all units involved; and",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": true,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "and"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(e) are adequately contained, packaged, and labeled as the agreement may require; and",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [
+        "may"
+      ],
+      "has_conjunction": true,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": true,
+      "operative_terms_found": [
+        "and",
+        "may"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(f) conform to the promises or affirmations of fact made on the container or label if any.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": true,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "or"
+      ],
+      "has_conditional": true,
+      "conditional_markers_found": [
+        "if"
+      ],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(3) Unless excluded or modified (§ 8.2-316) other implied warranties may arise from course of dealing or usage of trade.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [
+        "may"
+      ],
+      "has_conjunction": false,
+      "has_disjunction": true,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": true,
+      "operative_terms_found": [
+        "or",
+        "may"
+      ],
+      "has_conditional": true,
+      "conditional_markers_found": [
+        "unless"
+      ],
+      "has_exception": true,
+      "exception_markers_found": [
+        "unless"
+      ],
+      "cross_references": [
+        "§ 8.2-316"
+      ],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "1964, c. 219.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    }
+  ],
+  "8.2-601": [
+    {
+      "text": "Subject to the provisions of this title on breach in installment contracts (§ 8.2-612) and unless otherwise agreed under the sections on contractual limitations of remedy (§§ 8.2-718 and 8.2-719), if the goods or the tender of delivery fail in any respect to conform to the contract, the buyer may",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [
+        "may"
+      ],
+      "has_conjunction": true,
+      "has_disjunction": true,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": true,
+      "operative_terms_found": [
+        "and",
+        "or",
+        "may"
+      ],
+      "has_conditional": true,
+      "conditional_markers_found": [
+        "if",
+        "unless"
+      ],
+      "has_exception": true,
+      "exception_markers_found": [
+        "unless"
+      ],
+      "cross_references": [
+        "§ 8.2-612",
+        "§§ 8.2-718",
+        "this title"
+      ],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(a) reject the whole; or",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": true,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "or"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(b) accept the whole; or",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": true,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "or"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(c) accept any commercial unit or units and reject the rest.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": true,
+      "has_disjunction": true,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "and",
+        "or"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "1964, c. 219.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    }
+  ],
+  "8.2-703": [
+    {
+      "text": "Where the buyer wrongfully rejects or revokes acceptance of goods or fails to make a payment due on or before delivery or repudiates with respect to a part or the whole, then with respect to any goods directly affected and, if the breach is of the whole contract (§ 8.2-612), then also with respect to the whole undelivered balance, the aggrieved seller may",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [
+        "may"
+      ],
+      "has_conjunction": true,
+      "has_disjunction": true,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": true,
+      "operative_terms_found": [
+        "is",
+        "and",
+        "or",
+        "may"
+      ],
+      "has_conditional": true,
+      "conditional_markers_found": [
+        "if",
+        "where"
+      ],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [
+        "§ 8.2-612"
+      ],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(a) withhold delivery of such goods;",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(b) stop delivery by any bailee as hereafter provided (§ 8.2-705);",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [
+        "§ 8.2-705"
+      ],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(c) proceed under the next section [§ 8.2-704] respecting goods still unidentified to the contract;",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [
+        "§ 8.2-704"
+      ],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(d) resell and recover damages as hereafter provided (§ 8.2-706);",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": true,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "and"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [
+        "§ 8.2-706"
+      ],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(e) recover damages for nonacceptance (§ 8.2-708) or in a proper case the price (§ 8.2-709);",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": true,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "or"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [
+        "§ 8.2-708",
+        "§ 8.2-709"
+      ],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(f) cancel.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "1964, c. 219.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    }
+  ],
+  "8.2-711": [
+    {
+      "text": "(1) Where the seller fails to make delivery or repudiates or the buyer rightfully rejects or justifiably revokes acceptance then with respect to any goods involved, and with respect to the whole if the breach goes to the whole contract (§ 8.2-612), the buyer may cancel and whether or not he has done so may in addition to recovering so much of the price as has been paid",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [
+        "may"
+      ],
+      "has_conjunction": true,
+      "has_disjunction": true,
+      "has_negation": true,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": true,
+      "operative_terms_found": [
+        "and",
+        "or",
+        "may"
+      ],
+      "has_conditional": true,
+      "conditional_markers_found": [
+        "if",
+        "where"
+      ],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [
+        "§ 8.2-612"
+      ],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(a) \"cover\" and have damages under the next section [§ 8.2-712] as to all the goods affected whether or not they have been identified to the contract; or",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": true,
+      "has_disjunction": true,
+      "has_negation": true,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "and",
+        "or"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [
+        "§ 8.2-712"
+      ],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": [
+        "cover"
+      ]
+    },
+    {
+      "text": "(b) recover damages for nondelivery as provided in this title (§ 8.2-713).",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [
+        "§ 8.2-713",
+        "this title"
+      ],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(2) Where the seller fails to deliver or repudiates the buyer may also",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [
+        "may"
+      ],
+      "has_conjunction": false,
+      "has_disjunction": true,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": true,
+      "operative_terms_found": [
+        "or",
+        "may"
+      ],
+      "has_conditional": true,
+      "conditional_markers_found": [
+        "where"
+      ],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(a) if the goods have been identified recover them as provided in this title (§ 8.2-502); or",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": true,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "or"
+      ],
+      "has_conditional": true,
+      "conditional_markers_found": [
+        "if"
+      ],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [
+        "§ 8.2-502",
+        "this title"
+      ],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(b) in a proper case obtain specific performance or replevy the goods as provided in this title (§ 8.2-716).",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": true,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [
+        "or"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [
+        "§ 8.2-716",
+        "this title"
+      ],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "(3) On rightful rejection or justifiable revocation of acceptance a buyer has a security interest in goods in his possession or control for any payments made on their price and any expenses reasonably incurred in their inspection, receipt, transportation, care and custody and may hold such goods and resell them in like manner as an aggrieved seller (§ 8.2-706).",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [
+        "may"
+      ],
+      "has_conjunction": true,
+      "has_disjunction": true,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": true,
+      "operative_terms_found": [
+        "and",
+        "or",
+        "may"
+      ],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [
+        "§ 8.2-706"
+      ],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    },
+    {
+      "text": "1964, c. 219.",
+      "mode": "STATUTORY_LEGAL_PARSE",
+      "modal_verbs_found": [],
+      "has_conjunction": false,
+      "has_disjunction": false,
+      "has_negation": false,
+      "defined_terms_used": [],
+      "is_mandatory": false,
+      "is_permissive": false,
+      "operative_terms_found": [],
+      "has_conditional": false,
+      "conditional_markers_found": [],
+      "has_exception": false,
+      "exception_markers_found": [],
+      "cross_references": [],
+      "incorporated_definitions": [],
+      "is_definitional_sentence": false,
+      "potentially_undefined_terms": []
+    }
+  ]
+}

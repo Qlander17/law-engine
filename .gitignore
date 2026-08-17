@@ -1,0 +1,24 @@
+# Law Engine public/private boundary (Live Run 1.37, Mission 25).
+# This file is the real, first safeguard against accidentally publishing
+# private material -- not the only one (see docs/public-private-boundary.md
+# for the full policy), but the one that acts automatically.
+
+# Private legal library material not yet cleared for public release.
+# (Currently empty in practice -- this run's UCC extract is real, public-
+# domain Virginia state statute text, safe to publish -- but the rule
+# stays in place as a default-safe boundary for future, less-clean
+# sources, e.g. copyrighted treatises, before each is individually
+# reviewed and reclassified.)
+library/private/
+
+# Private case documents, personal research notes, user data.
+private/
+user-data/
+*.secret.*
+
+# Standard
+node_modules/
+.next/
+apps/web/.env*.local
+__pycache__/
+*.pyc

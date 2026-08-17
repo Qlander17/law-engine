@@ -1,0 +1,255 @@
+{
+  "8.2-102": {
+    "section_id": "8.2-102",
+    "title": "Scope; certain security and other transactions excluded from this title.",
+    "paragraphs": [
+      "(1) Unless the context otherwise requires, and except as provided in subsection (3), this title applies to transactions in goods and, in the case of a hybrid transaction, it applies to the extent provided in subsection (2).",
+      "(2) In a hybrid transaction:",
+      "(a) If the sale-of-goods aspects do not predominate, only the provisions of this title that relate primarily to the sale-of-goods aspects of the transaction apply, and the provisions that relate primarily to the transaction as a whole do not apply.",
+      "(b) If the sale-of-goods aspects predominate, this title applies to the transaction but does not preclude application in appropriate circumstances of other law to aspects of the transaction that do not relate to the sale of goods.",
+      "(3) This title does not:",
+      "(a) apply to a transaction that, even though in the form of an unconditional contract to sell or present sale, operates only to create a security interest; or",
+      "(b) impair or repeal a statute regulating sales to consumers, farmers, or other specified classes of buyers.",
+      "1964, c. 219; 2024, c. 652."
+    ],
+    "citation": "Va. Code Ann. § 8.2-102",
+    "source_document_id": "va-code-title-8.2-article-2",
+    "topics": [
+      "scope"
+    ],
+    "cross_references": [
+      "8.2-105"
+    ],
+    "defined_terms": []
+  },
+  "8.2-104": {
+    "section_id": "8.2-104",
+    "title": "Definitions: \"Merchant\"; \"financing agency\"; \"between merchants.\"",
+    "paragraphs": [
+      "(1) \"Merchant\" means a person who deals in goods of the kind or otherwise by his occupation holds himself out as having knowledge or skill peculiar to the practices or goods involved in the transaction or to whom such knowledge or skill may be attributed by his employment of an agent or broker or other intermediary who by his occupation holds himself out as having such knowledge or skill.",
+      "(2) \"Financing agency\" means a bank, finance company or other person who in the ordinary course of business makes advances against goods or documents of title or who by arrangement with either the seller or the buyer intervenes in ordinary course to make or collect payment due or claimed under the contract for sale, as by purchasing or paying the seller's draft or making advances against it or by merely taking it for collection whether or not documents of title accompany or are associated with the draft. \"Financing agency\" includes also a bank or other person who similarly intervenes between persons who are in the position of seller and buyer in respect to the goods (§ 8.2-707).",
+      "(3) \"Between merchants\" means in any transaction with respect to which both parties are chargeable with the knowledge or skill of merchants.",
+      "1964, c. 219; 2004, c. 200."
+    ],
+    "citation": "Va. Code Ann. § 8.2-104",
+    "source_document_id": "va-code-title-8.2-article-2",
+    "topics": [
+      "merchant-status",
+      "definitions"
+    ],
+    "cross_references": [
+      "8.2-707"
+    ],
+    "defined_terms": [
+      "merchant",
+      "financing agency",
+      "between merchants"
+    ]
+  },
+  "8.2-105": {
+    "section_id": "8.2-105",
+    "title": "Definitions: Transferability; \"goods\"; \"future\" goods; \"lot\"; \"commercial unit.\"",
+    "paragraphs": [
+      "(1) \"Goods\" means all things (including specially manufactured goods) which are movable at the time of identification to the contract for sale other than the money in which the price is to be paid, investment securities (Title 8.8A) and things in action. \"Goods\" also includes the unborn young of animals and growing crops and other identified things attached to realty as described in the section on goods to be severed from realty (§ 8.2-107).",
+      "(2) Goods must be both existing and identified before any interest in them can pass. Goods which are not both existing and identified are \"future\" goods. A purported present sale of future goods or of any interest therein operates as a contract to sell.",
+      "(3) There may be a sale of a part interest in existing identified goods.",
+      "(4) An undivided share in an identified bulk of fungible goods is sufficiently identified to be sold although the quantity of the bulk is not determined. Any agreed proportion of such a bulk or any quantity thereof agreed upon by number, weight or other measure may to the extent of the seller's interest in the bulk be sold to the buyer who then becomes an owner in common.",
+      "(5) \"Lot\" means a parcel or a single article which is the subject matter of a separate sale or delivery, whether or not it is sufficient to perform the contract.",
+      "(6) \"Commercial unit\" means such a unit of goods as by commercial usage is a single whole for purposes of sale and division of which materially impairs its character or value on the market or in use. A commercial unit may be a single article (as a machine) or a set of articles (as a suite of furniture or an assortment of sizes) or a quantity (as a bale, gross, or carload) or any other unit treated in use or in the relevant market as a single whole.",
+      "1964, c. 219."
+    ],
+    "citation": "Va. Code Ann. § 8.2-105",
+    "source_document_id": "va-code-title-8.2-article-2",
+    "topics": [
+      "definitions",
+      "scope"
+    ],
+    "cross_references": [
+      "8.2-107"
+    ],
+    "defined_terms": [
+      "goods",
+      "future goods",
+      "lot",
+      "commercial unit"
+    ]
+  },
+  "8.2-204": {
+    "section_id": "8.2-204",
+    "title": "Formation in general.",
+    "paragraphs": [
+      "(1) A contract for sale of goods may be made in any manner sufficient to show agreement, including conduct by both parties which recognizes the existence of such a contract.",
+      "(2) An agreement sufficient to constitute a contract for sale may be found even though the moment of its making is undetermined.",
+      "(3) Even though one or more terms are left open a contract for sale does not fail for indefiniteness if the parties have intended to make a contract and there is a reasonably certain basis for giving an appropriate remedy.",
+      "1964, c. 219."
+    ],
+    "citation": "Va. Code Ann. § 8.2-204",
+    "source_document_id": "va-code-title-8.2-article-2",
+    "topics": [
+      "contract-formation"
+    ],
+    "cross_references": [],
+    "defined_terms": []
+  },
+  "8.2-206": {
+    "section_id": "8.2-206",
+    "title": "Offer and acceptance in formation of contract.",
+    "paragraphs": [
+      "(1) Unless otherwise unambiguously indicated by the language or circumstances",
+      "(a) an offer to make a contract shall be construed as inviting acceptance in any manner and by any medium reasonable in the circumstances;",
+      "(b) an order or other offer to buy goods for prompt or current shipment shall be construed as inviting acceptance either by a prompt promise to ship or by the prompt or current shipment of conforming or nonconforming goods, but such a shipment of nonconforming goods does not constitute an acceptance if the seller seasonably notifies the buyer that the shipment is offered only as an accommodation to the buyer.",
+      "(2) Where the beginning of a requested performance is a reasonable mode of acceptance an offeror who is not notified of acceptance within a reasonable time may treat the offer as having lapsed before acceptance.",
+      "1964, c. 219."
+    ],
+    "citation": "Va. Code Ann. § 8.2-206",
+    "source_document_id": "va-code-title-8.2-article-2",
+    "topics": [
+      "contract-formation",
+      "offer-acceptance"
+    ],
+    "cross_references": [],
+    "defined_terms": []
+  },
+  "8.2-207": {
+    "section_id": "8.2-207",
+    "title": "Additional terms in acceptance or confirmation.",
+    "paragraphs": [
+      "(1) A definite and seasonable expression of acceptance or a written confirmation which is sent within a reasonable time operates as an acceptance even though it states terms additional to or different from those offered or agreed upon, unless acceptance is expressly made conditional on assent to the additional or different terms.",
+      "(2) The additional terms are to be construed as proposals for addition to the contract. Between merchants such terms become part of the contract unless:",
+      "(a) the offer expressly limits acceptance to the terms of the offer;",
+      "(b) they materially alter it; or",
+      "(c) notification of objection to them has already been given or is given within a reasonable time after notice of them is received.",
+      "(3) Conduct by both parties which recognizes the existence of a contract is sufficient to establish a contract for sale although the writings of the parties do not otherwise establish a contract. In such case the terms of the particular contract consist of those terms on which the writings of the parties agree, together with any supplementary terms incorporated under any other provisions of this act.",
+      "1964, c. 219."
+    ],
+    "citation": "Va. Code Ann. § 8.2-207",
+    "source_document_id": "va-code-title-8.2-article-2",
+    "topics": [
+      "contract-formation",
+      "offer-acceptance",
+      "battle-of-the-forms"
+    ],
+    "cross_references": [],
+    "defined_terms": []
+  },
+  "8.2-313": {
+    "section_id": "8.2-313",
+    "title": "Express warranties by affirmation, promise, description, sample.",
+    "paragraphs": [
+      "(1) Express warranties by the seller are created as follows:",
+      "(a) Any affirmation of fact or promise made by the seller to the buyer which relates to the goods and becomes part of the basis of the bargain creates an express warranty that the goods shall conform to the affirmation or promise.",
+      "(b) Any description of the goods which is made part of the basis of the bargain creates an express warranty that the goods shall conform to the description.",
+      "(c) Any sample or model which is made part of the basis of the bargain creates an express warranty that the whole of the goods shall conform to the sample or model.",
+      "(2) It is not necessary to the creation of an express warranty that the seller use formal words such as \"warrant\" or \"guarantee\" or that he have a specific intention to make a warranty, but an affirmation merely of the value of the goods or a statement purporting to be merely the seller's opinion or commendation of the goods does not create a warranty.",
+      "1964, c. 219."
+    ],
+    "citation": "Va. Code Ann. § 8.2-313",
+    "source_document_id": "va-code-title-8.2-article-2",
+    "topics": [
+      "warranties",
+      "express-warranty"
+    ],
+    "cross_references": [
+      "8.2-314"
+    ],
+    "defined_terms": []
+  },
+  "8.2-314": {
+    "section_id": "8.2-314",
+    "title": "Implied warranty: Merchantability; usage of trade.",
+    "paragraphs": [
+      "(1) Unless excluded or modified (§ 8.2-316), a warranty that the goods shall be merchantable is implied in a contract for their sale if the seller is a merchant with respect to goods of that kind. Under this section the serving for value of food or drink to be consumed either on the premises or elsewhere is a sale.",
+      "(2) Goods to be merchantable must be at least such as",
+      "(a) pass without objection in the trade under the contract description; and",
+      "(b) in the case of fungible goods, are of fair average quality within the description; and",
+      "(c) are fit for the ordinary purposes for which such goods are used; and",
+      "(d) run, within the variations permitted by the agreement, of even kind, quality and quantity within each unit and among all units involved; and",
+      "(e) are adequately contained, packaged, and labeled as the agreement may require; and",
+      "(f) conform to the promises or affirmations of fact made on the container or label if any.",
+      "(3) Unless excluded or modified (§ 8.2-316) other implied warranties may arise from course of dealing or usage of trade.",
+      "1964, c. 219."
+    ],
+    "citation": "Va. Code Ann. § 8.2-314",
+    "source_document_id": "va-code-title-8.2-article-2",
+    "topics": [
+      "warranties",
+      "implied-warranty",
+      "merchantability"
+    ],
+    "cross_references": [
+      "8.2-104",
+      "8.2-316"
+    ],
+    "defined_terms": []
+  },
+  "8.2-601": {
+    "section_id": "8.2-601",
+    "title": "Buyer's rights on improper delivery.",
+    "paragraphs": [
+      "Subject to the provisions of this title on breach in installment contracts (§ 8.2-612) and unless otherwise agreed under the sections on contractual limitations of remedy (§§ 8.2-718 and 8.2-719), if the goods or the tender of delivery fail in any respect to conform to the contract, the buyer may",
+      "(a) reject the whole; or",
+      "(b) accept the whole; or",
+      "(c) accept any commercial unit or units and reject the rest.",
+      "1964, c. 219."
+    ],
+    "citation": "Va. Code Ann. § 8.2-601",
+    "source_document_id": "va-code-title-8.2-article-2",
+    "topics": [
+      "performance",
+      "delivery",
+      "breach",
+      "buyer-remedies"
+    ],
+    "cross_references": [
+      "8.2-612"
+    ],
+    "defined_terms": []
+  },
+  "8.2-703": {
+    "section_id": "8.2-703",
+    "title": "Seller's remedies in general.",
+    "paragraphs": [
+      "Where the buyer wrongfully rejects or revokes acceptance of goods or fails to make a payment due on or before delivery or repudiates with respect to a part or the whole, then with respect to any goods directly affected and, if the breach is of the whole contract (§ 8.2-612), then also with respect to the whole undelivered balance, the aggrieved seller may",
+      "(a) withhold delivery of such goods;",
+      "(b) stop delivery by any bailee as hereafter provided (§ 8.2-705);",
+      "(c) proceed under the next section [§ 8.2-704] respecting goods still unidentified to the contract;",
+      "(d) resell and recover damages as hereafter provided (§ 8.2-706);",
+      "(e) recover damages for nonacceptance (§ 8.2-708) or in a proper case the price (§ 8.2-709);",
+      "(f) cancel.",
+      "1964, c. 219."
+    ],
+    "citation": "Va. Code Ann. § 8.2-703",
+    "source_document_id": "va-code-title-8.2-article-2",
+    "topics": [
+      "breach",
+      "seller-remedies"
+    ],
+    "cross_references": [],
+    "defined_terms": []
+  },
+  "8.2-711": {
+    "section_id": "8.2-711",
+    "title": "Buyer's remedies in general; buyer's security interest in rejected goods.",
+    "paragraphs": [
+      "(1) Where the seller fails to make delivery or repudiates or the buyer rightfully rejects or justifiably revokes acceptance then with respect to any goods involved, and with respect to the whole if the breach goes to the whole contract (§ 8.2-612), the buyer may cancel and whether or not he has done so may in addition to recovering so much of the price as has been paid",
+      "(a) \"cover\" and have damages under the next section [§ 8.2-712] as to all the goods affected whether or not they have been identified to the contract; or",
+      "(b) recover damages for nondelivery as provided in this title (§ 8.2-713).",
+      "(2) Where the seller fails to deliver or repudiates the buyer may also",
+      "(a) if the goods have been identified recover them as provided in this title (§ 8.2-502); or",
+      "(b) in a proper case obtain specific performance or replevy the goods as provided in this title (§ 8.2-716).",
+      "(3) On rightful rejection or justifiable revocation of acceptance a buyer has a security interest in goods in his possession or control for any payments made on their price and any expenses reasonably incurred in their inspection, receipt, transportation, care and custody and may hold such goods and resell them in like manner as an aggrieved seller (§ 8.2-706).",
+      "1964, c. 219."
+    ],
+    "citation": "Va. Code Ann. § 8.2-711",
+    "source_document_id": "va-code-title-8.2-article-2",
+    "topics": [
+      "breach",
+      "buyer-remedies",
+      "cover"
+    ],
+    "cross_references": [
+      "8.2-712"
+    ],
+    "defined_terms": []
+  }
+}

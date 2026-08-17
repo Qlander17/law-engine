@@ -1,0 +1,26 @@
+{
+  "document_id": "va-code-title-8.1a-article-1",
+  "title": "Code of Virginia, Title 8.1A (Uniform Commercial Code -- General Provisions) sections (vertical-slice subset)",
+  "authority_type": "STATUTE",
+  "jurisdiction": "Commonwealth of Virginia",
+  "citation": "Va. Code Ann. §§ 8.1A-103, 8.1A-201, 8.1A-301, 8.1A-302",
+  "official_source_url": "https://law.lis.virginia.gov/vacode/title8.1A/",
+  "publisher": "Commonwealth of Virginia, Division of Legislative Automated Systems",
+  "retrieval_timestamp": "2026-08-17T11:51:15.210329",
+  "sha256_hash": "020373f6f31fc4d07effa902b90df227a2665e599fa9f91c31457c747fa98017",
+  "verification_status": "SOURCE_VERIFIED",
+  "court": null,
+  "publication_or_effective_date": null,
+  "version": "1",
+  "superseded": false,
+  "licensing_status": "public domain -- enacted state statute (edict of government), not the separately-copyrighted ALI/ULC official UCC text",
+  "source_layer": "ENACTMENT",
+  "topics": [
+    "ucc",
+    "article-1",
+    "general-provisions",
+    "commercial-law"
+  ],
+  "cross_references": [],
+  "notes": "Real, disclosed subset: 4 of Article 1's real sections (Title 8.1A runs Parts 1-3, §§ 8.1A-101 through 8.1A-310; this covers one Part 1 section, one Part 2 section, and two Part 3 sections) -- chosen because Article 2's and Article 9's own already-ingested sections reference these general provisions, most concretely Article 9's own § 8.9A-102(43) 'Good faith' definition and this Article's § 8.1A-201(b)(20) 'Good faith' definition being the same Uniform Commercial Code concept at two different layers (see docs/zero-assumption-pedagogy-design.md's 'good faith purchaser' gap discussion). Retrieved via the harness's sanctioned WebFetch tool under the 'overnight-safe' unattended permission profile (direct raw-HTML curl was not available in this run), with each section independently cross-checked across multiple fetches -- including the 43-definition § 8.1A-201 fetched in small batches -- specifically to catch AI-mediated summarization drift; this caught and corrected two real, confirmed omissions before ingestion (see module docstring for detail). Not from any secondary or AI-summarized *source*, but the retrieval *tooling* itself carries a real, disclosed verbatim-fidelity risk that Article 2's and Article 9's own raw-HTML fetches did not carry."
+}

@@ -1,0 +1,270 @@
+{
+  "why_uniform_commercial_law_exists": "Before the UCC, commercial law -- the rules for selling goods, using negotiable instruments like checks and notes, and borrowing against personal property as collateral -- was ordinary state common law and scattered state statutes, and it did not match up well from state to state. A business operating in more than one state, or simply contracting with a party in another state, could not count on the same rules applying to the same transaction depending on which state's law governed -- a real, practical drag on interstate commerce as the American economy became more national over the 20th century. The Uniform Law Commission (ULC, then named the National Conference of Commissioners on Uniform State Laws) had existed since 1892 specifically to develop model state legislation for exactly this kind of problem, and had already produced earlier, narrower uniform acts on negotiable instruments and sales. Comprehensive work on a single, unified commercial code began around 1940, as a joint project of the ULC and the American Law Institute (ALI); the first complete draft was presented to the states in 1951, after roughly a decade of drafting. The Uniform Commercial Code's own current text states its purposes plainly: \"to simplify, clarify, and modernize the law governing commercial transactions,\" \"to permit the continued expansion of commercial practices through custom, usage, and agreement of the parties,\" and \"to make uniform the law among the various jurisdictions\" (UCC Section 1-103(a)). Uniformity was never valued for its own sake -- it was, and is, valued because a business (or a lender, borrower, merchant, or investor) can enter a contract with real confidence that materially the same rules will apply whether the other party, the goods, or the money are in the same state or a different one.",
+  "what_uniform_means_in_practice": "\"Uniform\" describes the ULC/ALI's own drafting goal and the model text they jointly promulgate -- it does NOT mean the UCC is automatically, uniformly binding law everywhere. A uniform act, upon approval by the ULC, is not law anywhere; it is a model statute proposed to all fifty state legislatures. \"No uniform law is effective until a state legislature adopts it,\" and each legislature that does adopt one is free to enact it word-for-word, modify specific provisions, or decline to adopt it at all -- which is exactly why real, state-to-state variation exists today despite the \"uniform\" name (this project's own SourceLayer enum in services/models.py -- MODEL vs. ENACTMENT vs. INTERPRETATION -- exists specifically so a state's actual enactment is never silently presented as if it were identical to, or the same thing as, the ULC/ALI's model text). In practice, most states' enactments track the model text closely for most provisions, but a specific section can and sometimes does diverge -- so a real legal question always has to be answered against the specific enacting state's own statute, never against the model text alone.",
+  "is_the_ucc_itself_binding_law": "No -- not directly, and this is one of the most commonly misunderstood points for a newcomer. The ALI/ULC's own \"official\" Uniform Commercial Code text is a jointly copyrighted model act; by itself it binds no one. What actually governs a real transaction is the specific state's own enacted statute -- e.g. Virginia's Title 8.2 for a Virginia sale-of-goods dispute -- which a state legislature adopted (usually closely following, but not required to exactly copy, the ULC/ALI model text). Once a state legislature enacts its own version, that enacted statutory text becomes a public-domain government edict under the government-edicts doctrine most recently restated by the U.S. Supreme Court in Georgia v. Public.Resource.Org, Inc., 590 U.S. 255 (2020) (\"no one can own the law\") -- which is exactly why Law Engine's own real ingestion (services/ingestion.py, services/ingestion_article9.py) sources Virginia's enacted Title 8.2 and Title 8.9A text directly from law.lis.virginia.gov, rather than the ALI/ULC's separately-copyrighted official text. See docs/ucc-source-licensing-audit.md for the full research behind that sourcing choice, including the real limits on what the edicts doctrine does and doesn't cover (it doesn't make the ALI/ULC's own official comments public domain, for instance, even for a section a state has enacted).",
+  "why_split_into_articles": "Each Article addresses a distinct kind of commercial transaction that raises genuinely different legal questions -- forming a contract to sell goods (Article 2) is not the same problem as making a check transferable with strong protection for a good-faith holder (Article 3), which is not the same problem as ranking competing lenders' claims to the same collateral (Article 9). Splitting the Code into Articles by transaction type lets each one develop the specific rules its own transaction actually needs (warranty and delivery rules for a sale; negotiability and holder-in-due-course rules for an instrument; attachment/perfection/priority rules for secured lending) without those rules colliding or having to awkwardly generalize across unrelated fact patterns -- while Article 1's shared definitions and interpretive principles keep the whole set internally consistent. This is also precisely why a single real transaction commonly draws on more than one Article at once (see each ArticleOverview's connects_to_article/cross_article_connection_note below, and services/cross_article_lifecycle.py's real, working equipment-purchase-on-credit example spanning Article 2 and Article 9) -- the Articles are organized by subject matter, not by transaction, so a real transaction routinely has to be read across more than one of them.",
+  "articles": [
+    {
+      "article": "1",
+      "display_name": "Article 1 -- General Provisions",
+      "model_uc_citation": "UCC Article 1",
+      "subject_matter": "General definitions (e.g. \"agreement,\" \"good faith,\" \"conspicuous\") and interpretive principles that apply across every other UCC Article, plus rules on how the Code should be construed and how parties can vary its provisions by agreement.",
+      "why_separate_article": "Every other Article relies on a shared set of basic terms and interpretive rules -- if each Article defined \"good faith\" or \"agreement\" independently, the same word could mean different things in a sales dispute (Article 2) than in a secured-lending dispute (Article 9). Article 1 exists specifically so that foundational vocabulary and interpretive principles live in one place and stay consistent everywhere else in the Code.",
+      "practical_problem_solved": "Prevents inconsistent or duplicated definitions across the other Articles, and states the Code's own baseline interpretive rules (liberal construction to promote its underlying purposes, and an obligation of good faith in every contract's performance and enforcement) so a court or drafter isn't left guessing which article's version of a shared term controls.",
+      "real_world_example": "A court deciding whether a seller acted in \"good faith\" under an Article 2 sales dispute looks to Article 1's own general definition of good faith (honesty in fact and the observance of reasonable commercial standards of fair dealing) -- Article 2's ingested text does not redefine the term itself.",
+      "connects_to_article": "2",
+      "cross_article_connection_note": "Article 1's definitions and interpretive principles apply to every other Article, including the real, ingested Article 2 sections this system already has -- it is the one Article every other Article \"connects to\" by design, not by any single transaction-specific link.",
+      "virginia_enactment_title": "Title 8.1A (Uniform Commercial Code -- General Provisions)",
+      "virginia_enactment_note": "Virginia enacts Article 1 as Title 8.1A, not Title 8.1 -- the \"A\" suffix marks it as the post-1990s-revision numbering (Virginia, like most states, renumbered Article 1 with an \"A\" when it enacted the Uniform Law Commission's revised Article 1).",
+      "has_ingested_coverage": false,
+      "ingested_coverage_note": "Not yet ingested into Law Engine. Only Article 2 (11 sections) and Article 9 (13 sections) have real, ingested Virginia statutory text as of this module's creation.",
+      "related_asset_types": [],
+      "related_document_families": [],
+      "asset_document_mapping_note": "Article 1 is cross-cutting general provisions and definitions -- it does not itself govern any specific AssetType or DocumentFamily. The real asset/document mappings live in the substantive Articles (2, 9, etc.) that Article 1's definitions support."
+    },
+    {
+      "article": "2",
+      "display_name": "Article 2 -- Sales",
+      "model_uc_citation": "UCC Article 2",
+      "subject_matter": "The sale of goods -- movable personal property -- between a buyer and a seller: contract formation, warranties, performance/delivery, risk of loss, breach, and remedies.",
+      "why_separate_article": "Selling a couch -- transferring ownership of it for a price -- raises a distinct set of legal questions (was there a valid offer and acceptance? does it come with an implied warranty of merchantability? who bears the risk if it's damaged in transit? what can the buyer do if it's defective?) from taking a security interest in that same couch as loan collateral (Article 9's subject, not Article 2's). Article 2 needed its own body of rules tailored to the sale transaction specifically, distinct from general common-law contract doctrine (which developed mostly around land and services, not fungible movable goods sold in volume) and distinct from Article 9's financing-focused rules.",
+      "practical_problem_solved": "Standardizes contract formation for goods (including the \"battle of the forms\" problem when a buyer's and seller's form contracts have conflicting boilerplate), fills in default warranty and risk-of-loss terms so parties don't have to negotiate every detail from scratch, and gives both merchants and consumers a predictable set of remedies when a sale of goods goes wrong.",
+      "real_world_example": "Buying a laptop from a retailer: Article 2 is what supplies the implied warranty that the laptop is fit for ordinary use (merchantability), governs when the seller's title/risk of loss passes to the buyer, and determines the buyer's remedies (rejection, revocation of acceptance, damages) if the laptop turns out to be defective.",
+      "connects_to_article": "9",
+      "cross_article_connection_note": "Article 2 governs the sale of goods (transfer of ownership for a price); Article 9 governs taking a security interest in goods (or other personal property) as loan collateral. The same physical good -- e.g. a piece of equipment -- can be the subject of both an Article 2 sale and an Article 9 security interest in the same transaction, and the two bodies of rules answer different questions about it (was there a valid sale and what are the warranty/remedy consequences, vs. did a security interest attach/perfect and who has priority in the collateral). services/cross_article_lifecycle.py demonstrates this with a real, six-stage equipment-purchase-on-credit lifecycle citing real ingested sections from both Articles.",
+      "virginia_enactment_title": "Title 8.2 (Commercial Code -- Sales)",
+      "virginia_enactment_note": "Virginia enacts Article 2 as plain Title 8.2 (no \"A\" suffix) -- this is the Article Law Engine's own real ingestion (services/ingestion.py) already sources directly from, at https://law.lis.virginia.gov/vacode/title8.2/.",
+      "has_ingested_coverage": true,
+      "ingested_coverage_note": "TRUE -- 11 real Virginia Code Title 8.2 sections are ingested (services/ingestion.py), covering scope, merchant status, contract formation, offer/acceptance, warranties, and breach/remedies. This is a real, disclosed subset of the full Article, not full coverage.",
+      "related_asset_types": [
+        "CONSUMER_GOODS",
+        "VEHICLE",
+        "INVENTORY",
+        "EQUIPMENT"
+      ],
+      "related_document_families": [
+        "CONTRACT",
+        "PURCHASE_ORDER",
+        "INVOICE"
+      ],
+      "asset_document_mapping_note": "All four AssetTypes and all three DocumentFamilies listed are real, existing enum members from services/asset_intelligence.py and services/document_intelligence.py, several of which (CONSUMER_GOODS, PURCHASE_ORDER, INVOICE, CONTRACT) are already directly grounded in this same ingested Article 2 text in those modules."
+    },
+    {
+      "article": "2A",
+      "display_name": "Article 2A -- Leases",
+      "model_uc_citation": "UCC Article 2A",
+      "subject_matter": "Leases of goods -- a lessor gives a lessee the right to possess and use goods for a term in exchange for rent, without transferring ownership -- including consumer-lease protections and how to tell a genuine lease apart from a sale disguised as a lease (a security interest in the form of a lease).",
+      "why_separate_article": "A lease is economically and legally different from a sale: the lessor keeps ownership and expects the goods back, the lessee never becomes the owner, and default/remedy questions run on a different track than Article 2's buyer/seller remedies. Article 2A largely mirrors Article 2's structure (warranties, performance, default) but tailored to the lease relationship, and adds a real, fact-intensive test for distinguishing a true lease from a security interest dressed up as one -- a distinction that matters enormously, since a \"lease\" that's really a disguised sale-on-credit is actually governed by Article 9, not Article 2A.",
+      "practical_problem_solved": "Gives lessors and lessees of goods (equipment leases, vehicle leases, etc.) their own predictable default warranty/remedy rules, and gives courts a real test for recharacterizing a mislabeled \"lease\" as the secured sale it actually is, protecting a lessee's expectation that a true lease ends with simply returning the goods, not owing a deficiency balance.",
+      "real_world_example": "Leasing a car for three years: Article 2A governs the lease terms, implied warranties, and what happens if the car is defective -- a materially different set of default rules than Article 2 would supply if the same car were purchased outright.",
+      "connects_to_article": "9",
+      "cross_article_connection_note": "Whether a transaction labeled a \"lease\" is really a true Article 2A lease or is instead a security interest in the form of a lease (and therefore governed by Article 9's attachment/ perfection/priority rules instead) is itself a real, recurring cross-Article classification question -- the label on the document does not control, the economic substance does.",
+      "virginia_enactment_title": "Title 8.2A (Commercial Code -- Leases)",
+      "virginia_enactment_note": "Virginia enacts Article 2A as Title 8.2A, following the standard \"Title 8.<article>A\" pattern for this Article.",
+      "has_ingested_coverage": false,
+      "ingested_coverage_note": "Not yet ingested into Law Engine. Only Article 2 (11 sections) and Article 9 (13 sections) have real, ingested Virginia statutory text as of this module's creation.",
+      "related_asset_types": [
+        "VEHICLE",
+        "EQUIPMENT"
+      ],
+      "related_document_families": [
+        "LEASE"
+      ],
+      "asset_document_mapping_note": "VEHICLE, EQUIPMENT, and LEASE are real, existing enum members from services/asset_intelligence.py and services/document_intelligence.py -- no new taxonomy invented."
+    },
+    {
+      "article": "3",
+      "display_name": "Article 3 -- Negotiable Instruments",
+      "model_uc_citation": "UCC Article 3",
+      "subject_matter": "What makes a written promise or order to pay money (a check, a promissory note, a draft) a \"negotiable instrument\"; how such instruments are transferred (negotiation, indorsement); and the special protection a good-faith transferee (a \"holder in due course\") gets against many defenses the original obligor could otherwise raise.",
+      "why_separate_article": "A negotiable instrument is designed to function like a reliable, transferable substitute for money or credit -- that only works if there's a formal, predictable set of requirements for what counts as negotiable and strong legal protection for someone who takes the instrument in good faith. Ordinary contract-assignment law doesn't give a transferee that kind of protection, so Article 3 needed its own, more rigid formal rules distinct from both Article 2's flexible sale-of-goods formation rules and ordinary contract law.",
+      "practical_problem_solved": "Makes checks, notes, and drafts reliably transferable in commerce by giving a good-faith holder-in-due-course protection from many of the maker's or drawer's personal defenses -- without this, instruments would carry too much transfer risk to function as a practical payment or credit mechanism.",
+      "real_world_example": "Writing a personal check to pay a contractor, or a business signing a promissory note payable to a lender -- Article 3 supplies the negotiability rules for both, and determines what happens if the check or note is later transferred to someone else.",
+      "connects_to_article": "4",
+      "cross_article_connection_note": "A check is a negotiable instrument (Article 3's subject) that also has to move through the banking system to be collected and paid -- Article 4 governs that collection/settlement process (provisional credit, final settlement, forged/altered-item allocation), so a single check transaction routinely implicates both Articles.",
+      "virginia_enactment_title": "Title 8.3A (Commercial Code -- Negotiable Instruments)",
+      "virginia_enactment_note": "Virginia enacts Article 3 as Title 8.3A. The Article's own official title changed from \"Commercial Paper\" to \"Negotiable Instruments\" in the ULC/ALI's 1990 revision -- Virginia's Title 8.3A reflects the current, post-1990 name.",
+      "has_ingested_coverage": false,
+      "ingested_coverage_note": "Not yet ingested into Law Engine. Only Article 2 (11 sections) and Article 9 (13 sections) have real, ingested Virginia statutory text as of this module's creation.",
+      "related_asset_types": [
+        "PROMISSORY_NOTE",
+        "CHECK"
+      ],
+      "related_document_families": [
+        "PROMISSORY_NOTE",
+        "NEGOTIABLE_INSTRUMENT",
+        "CHECK_DRAFT"
+      ],
+      "asset_document_mapping_note": "PROMISSORY_NOTE, CHECK, NEGOTIABLE_INSTRUMENT, and CHECK_DRAFT are all real, existing enum members from services/asset_intelligence.py and services/document_intelligence.py -- no new taxonomy invented."
+    },
+    {
+      "article": "4",
+      "display_name": "Article 4 -- Bank Deposits and Collections",
+      "model_uc_citation": "UCC Article 4",
+      "subject_matter": "The bank-customer relationship and the mechanics of collecting and paying checks and other items through the banking system: provisional vs. final settlement, a bank's rights and duties on forged or altered items, and deadlines for a customer to report problems.",
+      "why_separate_article": "Whether a check is negotiable at all (Article 3's question) is a different problem from how that check actually moves and settles between the depositary bank, intermediary banks, and the payor bank -- a process with its own timing, provisional-credit, and loss-allocation rules that Article 3's negotiability framework doesn't address. Article 4 needed its own rules for the banking-system mechanics specifically.",
+      "practical_problem_solved": "Gives banks and customers predictable rules for when deposited funds become final (vs. merely provisional, subject to being reversed if the check bounces), and allocates loss when a check turns out to be forged or altered -- without this, every deposit would carry open-ended uncertainty about whether the money is really the customer's yet.",
+      "real_world_example": "Depositing a check: the bank often gives \"provisional credit\" right away, but that credit can be reversed if the check is later returned unpaid -- Article 4 is what defines that provisional-vs-final distinction and the deadlines around it.",
+      "connects_to_article": "3",
+      "cross_article_connection_note": "Article 4's bank-collection rules operate on instruments whose negotiability and transfer rules come from Article 3 -- the two Articles routinely govern the same check at different points in its life (issuance/transfer under Article 3, collection/settlement under Article 4).",
+      "virginia_enactment_title": "Title 8.4 (Commercial Code -- Bank Deposits and Collections)",
+      "virginia_enactment_note": "Virginia enacts Article 4 as plain Title 8.4 (no \"A\" suffix).",
+      "has_ingested_coverage": false,
+      "ingested_coverage_note": "Not yet ingested into Law Engine. Only Article 2 (11 sections) and Article 9 (13 sections) have real, ingested Virginia statutory text as of this module's creation.",
+      "related_asset_types": [
+        "BANK_ACCOUNT",
+        "CHECK"
+      ],
+      "related_document_families": [
+        "CHECK_DRAFT"
+      ],
+      "asset_document_mapping_note": "BANK_ACCOUNT, CHECK, and CHECK_DRAFT are real, existing enum members from services/asset_intelligence.py and services/document_intelligence.py -- no new taxonomy invented."
+    },
+    {
+      "article": "4A",
+      "display_name": "Article 4A -- Funds Transfers",
+      "model_uc_citation": "UCC Article 4A",
+      "subject_matter": "Wholesale, bank-to-bank electronic funds transfers (wire transfers) -- how a \"payment order\" is accepted, when a transfer is complete, and how errors, delays, and fraudulent payment orders are handled between banks and their business customers.",
+      "why_separate_article": "A wire transfer has no check, note, or other physical/negotiable item involved at all -- it's a chain of electronic payment orders between banks. Neither Article 3 (which assumes an instrument) nor Article 4 (which assumes a collected item) fits that structure, so Article 4A needed its own rules built around the payment-order/acceptance model, largely developed because large-value wire transfers move enormous sums almost instantly and needed clear, bank-industry-workable loss-allocation rules distinct from consumer electronic-transfer law (which is governed separately, by federal Regulation E, not Article 4A).",
+      "practical_problem_solved": "Allocates the risk of a fraudulent, erroneous, or delayed wire transfer between the originator, the banks involved, and the beneficiary, and gives a bank a defense when it followed a commercially reasonable security procedure -- without this, high-value business wire transfers would carry unpredictable, potentially bank-crippling liability exposure.",
+      "real_world_example": "A business wiring $500,000 to a supplier's bank account to close a large purchase -- Article 4A is what governs when that payment order is accepted, when the transfer is legally complete, and who bears the loss if it's intercepted by fraud or sent to the wrong account.",
+      "connects_to_article": "4",
+      "cross_article_connection_note": "Article 4A and Article 4 both govern moving money between banks, but on different payment rails -- Article 4A for electronic payment orders (wires), Article 4 for check-based collection -- and a single commercial relationship (e.g. a business's banking relationship) routinely uses both.",
+      "virginia_enactment_title": "Title 8.4A (Commercial Code -- Funds Transfers)",
+      "virginia_enactment_note": "Virginia enacts Article 4A as Title 8.4A.",
+      "has_ingested_coverage": false,
+      "ingested_coverage_note": "Not yet ingested into Law Engine. Only Article 2 (11 sections) and Article 9 (13 sections) have real, ingested Virginia statutory text as of this module's creation.",
+      "related_asset_types": [
+        "MONEY",
+        "BANK_ACCOUNT"
+      ],
+      "related_document_families": [],
+      "asset_document_mapping_note": "MONEY and BANK_ACCOUNT are real, existing AssetType members. No existing DocumentFamily member represents a wire transfer's \"payment order\" (it's an electronic message between banks, not a document family document_intelligence.py currently models) -- left empty rather than inventing a new DocumentFamily value."
+    },
+    {
+      "article": "5",
+      "display_name": "Article 5 -- Letters of Credit",
+      "model_uc_citation": "UCC Article 5",
+      "subject_matter": "Letters of credit -- a bank's independent promise, issued on a buyer/applicant's behalf, to pay a seller/beneficiary who presents documents conforming to the letter of credit's own terms, regardless of disputes under the underlying sale contract.",
+      "why_separate_article": "A letter of credit's entire value depends on the \"independence principle\": the issuing bank's obligation to pay is judged solely against the documents presented, not against whether the underlying goods contract was actually performed. That's a fundamentally different kind of obligation than an ordinary Article 2 sales contract or an Article 3 negotiable instrument, so it needed its own Article to state and protect that independence.",
+      "practical_problem_solved": "Lets a seller get paid by presenting conforming documents to a creditworthy bank, without having to trust a buyer's own creditworthiness or wait out a dispute over whether the underlying goods actually met the contract -- substituting bank credit risk for buyer credit risk, which is especially valuable when buyer and seller don't know or trust each other well (classically, international sales).",
+      "real_world_example": "An exporter shipping goods overseas gets paid by presenting a bill of lading and invoice to the buyer's bank under a letter of credit -- the bank pays on the documents alone, without second-guessing whether the goods themselves actually matched the underlying sales contract.",
+      "connects_to_article": "7",
+      "cross_article_connection_note": "The documents a beneficiary presents to draw on a letter of credit are frequently Article 7 documents of title (a bill of lading, a warehouse receipt) -- Article 5 governs whether the bank must pay on presentation, while Article 7 governs what those underlying documents themselves legally represent and how they transfer rights to the goods.",
+      "virginia_enactment_title": "Title 8.5A (Uniform Commercial Code -- Letters of Credit)",
+      "virginia_enactment_note": "Virginia enacts Article 5 as Title 8.5A.",
+      "has_ingested_coverage": false,
+      "ingested_coverage_note": "Not yet ingested into Law Engine. Only Article 2 (11 sections) and Article 9 (13 sections) have real, ingested Virginia statutory text as of this module's creation.",
+      "related_asset_types": [],
+      "related_document_families": [],
+      "asset_document_mapping_note": "No existing AssetType or DocumentFamily member represents a letter of credit itself -- left empty rather than inventing a new taxonomy value. (A letter of credit's underlying presentation documents commonly ARE Article 7's DOCUMENT_OF_TITLE / BILL_OF_LADING / WAREHOUSE_RECEIPT, which is why Article 5's cross-reference above points to Article 7.)"
+    },
+    {
+      "article": "6",
+      "display_name": "Article 6 -- Bulk Transfers / Bulk Sales",
+      "model_uc_citation": "UCC Article 6 -- withdrawn by the ULC in 1989; repealed or never enacted in the large majority of states",
+      "subject_matter": "(Historical) Required a merchant selling substantially all of its inventory outside the ordinary course of business to give advance notice to its creditors, so they could act to protect their claims before the merchant disappeared with the sale proceeds.",
+      "why_separate_article": "The specific fact pattern Article 6 targeted -- a merchant secretly liquidating its entire stock in a single \"bulk\" sale and vanishing before unpaid suppliers could collect -- wasn't addressed by ordinary Article 2 sale-of-goods rules (which don't require notifying third-party creditors of a sale at all) or by Article 9 (which protects a secured creditor's own collateral, not unsecured trade creditors generally). It needed its own notice-to-creditors mechanism, layered on top of an otherwise ordinary Article 2 sale of the inventory.",
+      "practical_problem_solved": "(Historical) Gave a merchant's unsecured trade creditors advance warning of a bulk liquidation so they could intervene before the proceeds disappeared -- a fraud-prevention tool for a specific 20th-century pattern of \"midnight sale\" abuse.",
+      "real_world_example": "(Historical) A retail store owner selling the store's entire inventory to a buyer overnight and closing up shop, leaving unpaid suppliers with no notice and an empty company to collect from -- Article 6 required advance notice to those creditors before such a sale could bind them.",
+      "connects_to_article": "9",
+      "cross_article_connection_note": "The ULC's own 1989 study concluded that other, more modern creditor-protection tools -- fraudulent/voidable-transfer law (now the Uniform Voidable Transactions Act in most states) and Article 9's own security-interest perfection/priority regime -- give creditors better protection than Article 6's notice mechanism ever did, without burdening ordinary bulk-sale transactions; that overlap with Article 9's function is a real part of why Article 6 was withdrawn/repealed rather than kept alongside it.",
+      "virginia_enactment_title": null,
+      "virginia_enactment_note": "Virginia has no current Title 8.6 -- confirmed directly against the live Code of Virginia table of contents (law.lis.virginia.gov/vacode/) this run, which lists Title 8.5A followed directly by Title 8.7, with no Title 8.6 present. This is the real, practical nuance the product-vision directive asked to be verified rather than assumed: Article 6 is NOT presented here as a still-standard, currently-enacted Article in Virginia.",
+      "has_ingested_coverage": false,
+      "ingested_coverage_note": "Not ingested, and not expected to be -- Virginia has no enacted Article 6 text to ingest. Only Article 2 (11 sections) and Article 9 (13 sections) have real, ingested Virginia statutory text as of this module's creation.",
+      "related_asset_types": [
+        "INVENTORY"
+      ],
+      "related_document_families": [],
+      "asset_document_mapping_note": "INVENTORY is a real, existing AssetType member. No existing DocumentFamily member represents a bulk-sale creditor notice -- left empty rather than inventing a new taxonomy value."
+    },
+    {
+      "article": "7",
+      "display_name": "Article 7 -- Documents of Title",
+      "model_uc_citation": "UCC Article 7",
+      "subject_matter": "Negotiable and non-negotiable documents of title -- bills of lading (issued by a carrier) and warehouse receipts (issued by a warehouse) -- and who bears risk and holds rights in goods while they sit in a bailee's hands.",
+      "why_separate_article": "A document of title lets someone deal with goods held by a third-party bailee (a carrier or warehouse) by transferring the document itself, without physically moving the goods -- a mechanism Article 2's ordinary delivery-based transfer rules don't address at all. Article 7 needed its own rules for what the document legally represents, how a negotiable document transfers rights by negotiation (similar in spirit to Article 3's negotiable instruments, but for goods-in-custody rather than money obligations), and how a bailee's own duties and liability work.",
+      "practical_problem_solved": "Lets goods sitting in a warehouse or in transit be bought, sold, or pledged as loan collateral by dealing with the paper (or electronic equivalent) representing them, instead of physically moving the goods for every transaction -- essential for storage, shipping, and commodity/warehouse financing to function efficiently.",
+      "real_world_example": "A farmer stores grain in a public warehouse and receives a negotiable warehouse receipt; that receipt can then be sold or pledged as loan collateral without the grain itself ever moving, because transferring the receipt transfers the rights Article 7 says it represents.",
+      "connects_to_article": "9",
+      "cross_article_connection_note": "A document of title is itself a real Article 9 collateral category -- a security interest in goods covered by a negotiable document of title can be perfected by the secured party taking possession or control of the document itself, rather than the underlying goods, tying Article 7's document-transfer mechanism directly into Article 9's perfection rules.",
+      "virginia_enactment_title": "Title 8.7 (Commercial Code -- Warehouse Receipts, Bills of Lading and Other Documents of Title)",
+      "virginia_enactment_note": "Virginia enacts Article 7 as plain Title 8.7 (no \"A\" suffix).",
+      "has_ingested_coverage": false,
+      "ingested_coverage_note": "Not yet ingested into Law Engine. Only Article 2 (11 sections) and Article 9 (13 sections) have real, ingested Virginia statutory text as of this module's creation.",
+      "related_asset_types": [
+        "DOCUMENT_OF_TITLE",
+        "INVENTORY"
+      ],
+      "related_document_families": [
+        "BILL_OF_LADING",
+        "WAREHOUSE_RECEIPT"
+      ],
+      "asset_document_mapping_note": "DOCUMENT_OF_TITLE, INVENTORY, BILL_OF_LADING, and WAREHOUSE_RECEIPT are all real, existing enum members from services/asset_intelligence.py and services/document_intelligence.py -- no new taxonomy invented."
+    },
+    {
+      "article": "8",
+      "display_name": "Article 8 -- Investment Securities",
+      "model_uc_citation": "UCC Article 8",
+      "subject_matter": "Ownership, transfer, and pledging of securities (stocks, bonds), including the modern \"indirect holding system\" where most investors hold securities through a chain of brokers/clearing agencies rather than possessing a physical certificate.",
+      "why_separate_article": "Modern securities are overwhelmingly held indirectly through brokerage accounts, not as physical certificates in the investor's own possession -- neither Article 2's \"goods\" framework nor Article 3's negotiable-instrument framework fits an intangible interest tracked electronically through a chain of intermediaries. Article 8 needed its own \"security entitlement\" concept and its own rules for how such indirectly-held interests are created, transferred, and pledged as collateral.",
+      "practical_problem_solved": "Gives investors, brokers, and lenders a reliable legal framework for buying, selling, and borrowing against securities held in brokerage accounts, where there is no physical certificate changing hands for almost any transaction.",
+      "real_world_example": "Buying shares of stock through a brokerage account: the investor doesn't receive a physical stock certificate -- Article 8 defines the investor's legal \"security entitlement\" against the broker instead, which is what actually gets bought, sold, or pledged.",
+      "connects_to_article": "9",
+      "cross_article_connection_note": "Investment property (securities and security entitlements) is a real Article 9 collateral category, and a security interest in it can be perfected by \"control\" of the securities account -- an Article 8 concept -- rather than by filing, linking the two Articles directly for any loan secured by an investment portfolio.",
+      "virginia_enactment_title": "Title 8.8A (Commercial Code -- Investment Securities)",
+      "virginia_enactment_note": "Virginia enacts Article 8 as Title 8.8A (with the \"A\" suffix, reflecting the ULC/ALI's revised Article 8 adopted to address the modern indirect-holding system) -- confirmed directly against the live Code of Virginia table of contents this run, since the plain \"Title 8.8\" (no suffix) numbering some naive extrapolations of the pattern would predict is not what Virginia actually uses.",
+      "has_ingested_coverage": false,
+      "ingested_coverage_note": "Not yet ingested into Law Engine. Only Article 2 (11 sections) and Article 9 (13 sections) have real, ingested Virginia statutory text as of this module's creation.",
+      "related_asset_types": [
+        "INVESTMENT_ASSET"
+      ],
+      "related_document_families": [],
+      "asset_document_mapping_note": "INVESTMENT_ASSET is a real, existing AssetType member. No existing DocumentFamily member represents a security or security entitlement -- left empty rather than inventing a new taxonomy value."
+    },
+    {
+      "article": "9",
+      "display_name": "Article 9 -- Secured Transactions",
+      "model_uc_citation": "UCC Article 9",
+      "subject_matter": "Creation (attachment), public notice (perfection), ranking among competing claimants (priority), and enforcement (default, repossession, disposition of collateral) of security interests in personal property.",
+      "why_separate_article": "Taking a security interest in a couch as loan collateral raises an entirely different set of legal questions -- did the interest attach, was it perfected, who has priority against other creditors, what happens on default -- than selling that same couch outright (Article 2's subject). \"Selling a couch\" and \"borrowing against a couch\" are legally distinct transactions even when the same physical good and the same two parties are involved, and Article 9 needed its own comprehensive framework for the financing side specifically.",
+      "practical_problem_solved": "Gives lenders a reliable, priority-ranked claim against a debtor's personal property, making secured lending (equipment financing, inventory floor-plan financing, accounts-receivable financing, etc.) practical at a lower cost/risk than unsecured lending, while giving debtors and competing creditors predictable rules for how competing claims to the same collateral are resolved.",
+      "real_world_example": "A bank financing a business's purchase of manufacturing equipment: it takes a security interest in the equipment, files a UCC-1 financing statement to perfect it, and -- as a purchase-money security interest -- gets priority over the business's other, earlier, broader lenders specifically as to that equipment if the business later defaults.",
+      "connects_to_article": "2",
+      "cross_article_connection_note": "Article 2 governs the sale of goods (transfer of ownership for a price); Article 9 governs taking a security interest in goods (or other personal property) as loan collateral. The same physical good -- e.g. a piece of equipment -- can be the subject of both an Article 2 sale and an Article 9 security interest in the same transaction, and the two bodies of rules answer different questions about it (was there a valid sale and what are the warranty/remedy consequences, vs. did a security interest attach/perfect and who has priority in the collateral). services/cross_article_lifecycle.py demonstrates this with a real, six-stage equipment-purchase-on-credit lifecycle citing real ingested sections from both Articles.",
+      "virginia_enactment_title": "Title 8.9A (Commercial Code -- Secured Transactions)",
+      "virginia_enactment_note": "Virginia enacts Article 9 as Title 8.9A -- the Article Law Engine's own real ingestion (services/ingestion_article9.py) already sources directly from, at https://law.lis.virginia.gov/vacode/title8.9A/.",
+      "has_ingested_coverage": true,
+      "ingested_coverage_note": "TRUE -- 13 real Virginia Code Title 8.9A sections are ingested (services/ingestion_article9.py), covering scope/definitions, security-agreement effectiveness, attachment, after-acquired property/future advances, perfection, the filing requirement, priority (including purchase-money priority), and default/repossession/disposition. This is a real, disclosed subset of the full Article (which runs through Part 8; this covers Parts 1-3 and 6, plus one Part 5 filing-trigger section), not full coverage.",
+      "related_asset_types": [
+        "VEHICLE",
+        "EQUIPMENT",
+        "INVENTORY",
+        "CONSUMER_GOODS",
+        "ACCOUNTS_RECEIVABLE",
+        "PROMISSORY_NOTE"
+      ],
+      "related_document_families": [
+        "SECURITY_AGREEMENT",
+        "FINANCING_STATEMENT"
+      ],
+      "asset_document_mapping_note": "All six AssetTypes and both DocumentFamilies are real, existing enum members from services/asset_intelligence.py and services/document_intelligence.py -- every one of those AssetType profiles already marks security_interest_eligible=True and discusses Article 9 perfection/priority concepts directly (mostly still flagged there as not-yet-grounded-in-an-ingested-citation, since that module predates this Article 9 ingestion)."
+    }
+  ],
+  "article_12_note": "UCC Article 12 (Controllable Electronic Records) is real and current -- added by the 2022 UCC Amendments to address digital-asset transactions (e.g. virtual currency, NFTs), jointly approved by the ALI and ULC. It is deliberately NOT one of this module's 11 full ArticleOverview records (the product-vision directive scoped this orientation to the 11 pre-2022 Articles plus a note on 12, not a full profile). What IS verified, real, and current as of this module's creation: Virginia has enacted the 2022 amendments -- confirmed both by docs/ucc-source-licensing-audit.md's prior research (25 jurisdictions including Virginia, as of February 2025) and directly against the live Code of Virginia table of contents this run, which lists a real Title 8.12 (\"Controllable Electronic Records\"). Law Engine has NOT ingested any Title 8.12 text -- has_ingested_coverage for Article 12 would be False, same as every Article besides 2 and 9. Adoption elsewhere is still actively in progress state-by-state (33 jurisdictions as of the most recent check in the licensing audit); check the ULC's own live enactment tracker (uniformlaws.org) before relying on any other state's status.",
+  "sources": [
+    "https://www.uniformlaws.org/acts/ucc",
+    "https://www.law.cornell.edu/ucc/1/1-103",
+    "https://www.law.cornell.edu/ucc",
+    "https://www.law.cornell.edu/ucc/9",
+    "https://www.law.cornell.edu/ucc/3",
+    "https://www.law.cornell.edu/ucc/6",
+    "https://law.lis.virginia.gov/vacode/",
+    "https://law.lis.virginia.gov/vacode/title8.1A/",
+    "https://www.supremecourt.gov/opinions/19pdf/18-1150_7m58.pdf",
+    "https://www.willkie.com/publications/2024/08/ucc-article-12-controllable-electronic-records",
+    "law-engine/docs/ucc-source-licensing-audit.md (internal, this repository -- prior real research on state-enactment sourcing and 2022-amendment adoption status, reused rather than re-derived)",
+    "law-engine/services/ingestion.py, law-engine/services/ingestion_article9.py, law-engine/services/cross_article_lifecycle.py (internal, this repository -- real ingested-coverage facts and the real cross-Article lifecycle pattern this module's connection notes describe)"
+  ]
+}

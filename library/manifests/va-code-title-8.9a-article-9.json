@@ -1,0 +1,26 @@
+{
+  "document_id": "va-code-title-8.9a-article-9",
+  "title": "Code of Virginia, Title 8.9A (Commercial Code -- Secured Transactions) sections (bounded cross-Article subset)",
+  "authority_type": "STATUTE",
+  "jurisdiction": "Commonwealth of Virginia",
+  "citation": "Va. Code Ann. §§ 8.9A-102, 8.9A-109, 8.9A-201, 8.9A-203, 8.9A-204, 8.9A-308, 8.9A-310, 8.9A-317, 8.9A-322, 8.9A-324, 8.9A-601, 8.9A-609, 8.9A-610",
+  "official_source_url": "https://law.lis.virginia.gov/vacode/title8.9A/",
+  "publisher": "Commonwealth of Virginia, Division of Legislative Automated Systems",
+  "retrieval_timestamp": "2026-08-16T09:25:28.982376",
+  "sha256_hash": "6bb878ed59bc4e2d72afb64c342ac0216d8c103b150222203aed564673f50c63",
+  "verification_status": "SOURCE_VERIFIED",
+  "court": null,
+  "publication_or_effective_date": null,
+  "version": "1",
+  "superseded": false,
+  "licensing_status": "public domain -- enacted state statute (edict of government), not the separately-copyrighted ALI/ULC official UCC text",
+  "source_layer": "ENACTMENT",
+  "topics": [
+    "ucc",
+    "article-9",
+    "secured-transactions",
+    "commercial-law"
+  ],
+  "cross_references": [],
+  "notes": "Real, disclosed subset: 13 of Article 9's real sections (Title 8.9A runs through Part 8; this covers Parts 1-3 and 6, plus one Part 5 filing-trigger section) -- chosen to support scope, definitions, security-agreement effectiveness, attachment, after-acquired property/future advances, perfection, the filing requirement, priority (including purchase-money priority), and default/remedies. Retrieved directly from law.lis.virginia.gov (raw HTML), not from any secondary or AI-summarized source, specifically to keep the statutory text verbatim. Ingested specifically to support a genuine Article 2 -> Article 9 cross-Article transaction lifecycle (see services/cross_article_lifecycle.py)."
+}

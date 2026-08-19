@@ -88,6 +88,16 @@ question, not a general-purpose legal-research capability. Expanding beyond thes
 any other legal question, remains real, deliberately unscoped future work — not something to assume
 exists.
 
+## Case studies
+
+- [`docs/case-studies/ux-task-first-iteration.md`](docs/case-studies/ux-task-first-iteration.md) — a
+  real founder-feedback-driven product-iteration cycle (accessibility fix, and a reframing of the core
+  learning mechanic), written up honestly as one founder's own feedback loop, not formal multi-user UX
+  research.
+- [`docs/case-studies/product-architecture.md`](docs/case-studies/product-architecture.md) — the
+  product overview: problem, user, MVP, what was deliberately not built, architecture, tradeoffs,
+  roadmap, and risk.
+
 ## Running it
 
 Requires Node.js **>=20.9.0** for `apps/web` (Next.js 16's own minimum). Python side has no version

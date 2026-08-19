@@ -1,0 +1,26 @@
+{
+  "document_id": "va-code-title-8.3a-article-3",
+  "title": "Code of Virginia, Title 8.3A (Uniform Commercial Code -- Negotiable Instruments) sections (bounded vertical slice)",
+  "authority_type": "STATUTE",
+  "jurisdiction": "Commonwealth of Virginia",
+  "citation": "Va. Code Ann. §§ 8.3A-102, 8.3A-103, 8.3A-104, 8.3A-109, 8.3A-201, 8.3A-203, 8.3A-204, 8.3A-205, 8.3A-206, 8.3A-301, 8.3A-302, 8.3A-308",
+  "official_source_url": "https://law.lis.virginia.gov/vacode/title8.3A/",
+  "publisher": "Commonwealth of Virginia, Division of Legislative Automated Systems",
+  "retrieval_timestamp": "2026-08-18T22:25:43.314370",
+  "sha256_hash": "dcd053f351084c3b9610dc3e84da5e08872bbf4187e58b217f27b3f3b42923d3",
+  "verification_status": "SOURCE_VERIFIED",
+  "court": null,
+  "publication_or_effective_date": null,
+  "version": "1",
+  "superseded": false,
+  "licensing_status": "public domain -- enacted state statute (edict of government), not the separately-copyrighted ALI/ULC official UCC text",
+  "source_layer": "ENACTMENT",
+  "topics": [
+    "ucc",
+    "article-3",
+    "negotiable-instruments",
+    "commercial-law"
+  ],
+  "cross_references": [],
+  "notes": "Real, disclosed vertical slice: 12 of Article 3's real sections (Title 8.3A runs through Part 6; this covers most of Part 1 -- subject matter and definitions -- plus Part 2 in full -- negotiation and indorsement -- and the first three sections of Part 3 -- person entitled to enforce, holder in due course, and proof of signatures/status as holder in due course). Chosen to support the negotiable-instrument-recognition competency: recognizing a negotiable instrument, determining negotiability requirements, understanding indorsement types and effect, holder-in-due-course status, and who is a person entitled to enforce an instrument. The original 11 sections were retrieved directly from law.lis.virginia.gov (raw HTML) on 2026-08-18. § 8.3A-308 was added Live Run 1.60, Mission 8, Phase 1, retrieved from the same official source via the WebFetch tool (raw Bash network egress is sandbox-denied this run) in two subsection-scoped verbatim-reproduction fetches, cross-checked against each other for internal consistency -- a disclosed change in retrieval mechanism, not in sourcing standard; not from any secondary or AI-summarized-content source. § 8.3A-309 (lost/destroyed/stolen instrument enforcement) was reviewed but not ingested -- neither flagship precedent case involves a lost instrument, so it would not materially strengthen this case study's statutory grounding (see module docstring). 'Holder' itself is not re-defined here -- it's reused directly from the already-ingested Article 1 general definition (§ 8.1A-201)."
+}

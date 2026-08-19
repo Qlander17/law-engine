@@ -1,0 +1,70 @@
+{
+  "case_name": "Rodriguez v. Wells Fargo Bank, N.A.",
+  "official_citation": "178 So. 3d 62 (Fla. 4th DCA 2015)",
+  "docket_number": "4D14-100",
+  "court": "District Court of Appeal of the State of Florida, Fourth District",
+  "date_filed": "2015-10-14",
+  "trial_court": {
+    "court": "Circuit Court for the Fifteenth Judicial Circuit, Palm Beach County",
+    "judge": "Howard Harrison, Senior Judge",
+    "lower_tribunal_case_number": "502010CA001392XXXXMB"
+  },
+  "parties": {
+    "appellants": "Mario A. Rodriguez and Lendy Rodriguez",
+    "appellee": "Wells Fargo Bank, N.A., d/b/a America's Servicing Company"
+  },
+  "counsel": {
+    "for_appellants": "Brian Korte of Korte and Wortman, P.A., West Palm Beach",
+    "for_appellee": "Dean A. Morande and Michael K. Winston of Carlton Fields Jorden Burt, P.A., West Palm Beach"
+  },
+  "panel": {
+    "author_or_source_of_verbatim_quote": "Ciklin, C.J. (majority opinion)",
+    "other_panel_members_reported": ["Taylor, J. (concurs)", "Conner, J. (concurs specially with opinion)"],
+    "panel_confidence_note": "Independently confirmed this run by directly reading (via the Read tool, not AI summarization) the complete, official opinion PDF (8 pages), located through the CourtListener v4 search API's real download_url metadata and fetched from CourtListener's own PDF mirror of the official 4th DCA opinion (the original 4dca.flcourts.gov URL structure from the prior run's disclosure has since 404'd -- see retrieval_disclosure). The caption/signature block confirms CIKLIN, C.J. authored the majority opinion; TAYLOR, J., concurs; CONNER, J., concurs specially with a separate opinion. This resolves the prior run's disclosed lower-confidence panel note -- panel composition is now confirmed at the same confidence as the pincited quote, not lower."
+  },
+  "verbatim_confirmed_excerpts": [
+    {
+      "text": "[W]ith bearer notes, possession of the note is the significant core element to be analyzed.",
+      "pin_cite": "178 So. 3d 62, 65 (Fla. 4th DCA 2015) (Conner, J., concurring)",
+      "confirmation_method": "Independently confirmed twice over: (1) as the prior run found, by directly reading the real, complete, verbatim PDF opinion of a later, related Fourth District case -- Caraccia v. U.S. Bank, National Ass'n, No. 4D15-825 (Fla. 4th DCA Feb. 24, 2016) -- which quotes this sentence from Rodriguez's concurrence directly, with citation; and (2) this run, by directly reading the complete Rodriguez opinion itself, where this exact sentence appears in Conner, J.'s special concurrence.",
+      "source_url": "https://flcourts-media.flcourts.gov/content/download/201599/opinion/Opinion_15-825.pdf",
+      "source_document": "Caraccia v. U.S. Bank, National Ass'n, No. 4D15-825 (Fla. 4th DCA Feb. 24, 2016), official court opinion PDF"
+    }
+  ],
+  "facts_and_procedural_history": {
+    "summary_capture_method": "Independently confirmed this run by directly reading (via the Read tool, not AI summarization) the complete, official opinion PDF -- SOURCE_VERIFIED confidence, not the prior run's RETRIEVED-only aggregator extraction.",
+    "facts": [
+      "Wells Fargo Bank, N.A., d/b/a America's Servicing Company, filed a foreclosure action against the Rodriguezes in 2010, alleging it was \"the holder of the Mortgage Note and Mortgage and/or is entitled to enforce the Mortgage Note and Mortgage.\"",
+      "The copy of the note attached to the complaint was not indorsed.",
+      "Prior to trial, the bank filed the original note in the court registry, which contained an indorsement in blank.",
+      "At trial, the bank's witness testimony established that the bank was the servicer of the note and that the bank had possessed the original note since August 2007 -- i.e., well before the 2010 filing -- but the witness could offer no proof of when the blank indorsement was placed on the note, and no testimony was offered that the blank indorsement was on the note on the date suit was filed.",
+      "The trial court denied the homeowners' motion for involuntary dismissal (Fla. R. Civ. P. 1.420(b)) based on the bank's lack of standing, and entered final judgment for the bank."
+    ],
+    "real_correction_found_this_run": "The prior run's captured quote of the complaint's own allegation was truncated -- it read only 'the holder of the Mortgage Note and Mortgage.' The official opinion's actual quoted language is 'the holder of the Mortgage Note and Mortgage and/or is entitled to enforce the Mortgage Note and Mortgage,' which matters here because the disjunctive 'and/or is entitled to enforce' clause is the allegation the servicer-authority holding actually turns on. Corrected to the full, exact quote above."
+  },
+  "holding_and_reasoning": {
+    "summary_capture_method": "Independently confirmed this run by directly reading the complete official opinion PDF -- SOURCE_VERIFIED confidence.",
+    "quoted_language": [
+      "A crucial element of any mortgage foreclosure proceeding is that the party seeking foreclosure must demonstrate that it has standing to foreclose [at the time the complaint is filed].",
+      "The case law says the critical time for determining the status of the two core elements is the date the suit is filed.",
+      "A servicer that is not the holder of the note may have standing to commence a foreclosure action on behalf of the real party in interest, but it must present evidence, such as an affidavit or a pooling and servicing agreement, demonstrating that the real party in interest granted the servicer authority to enforce the note.",
+      "The bank introduced no power of attorney, pooling and servicing agreement, or other evidence to show that the real party in interest authorized it to bring the action."
+    ],
+    "quote_attribution_note": "Independently confirmed this run: quoted_language[0] and [2] and [3] are from Ciklin, C.J.'s majority opinion. quoted_language[1] ('The case law says the critical time...') is, in the actual opinion, from Conner, J.'s special concurrence, not the majority -- disclosed here since the prior run's manifest did not distinguish it. It remains legitimate supporting authority for this graph's timing proposition (a concurring judge's own reasoning on the same panel, in the same case, expressly agreeing with and elaborating the majority's timing point), but is not majority holding language the way the other three quotes are.",
+    "real_correction_to_live_run_1_59_summary": "Live Run 1.59's secondary-source summary described Rodriguez purely as a note-possession-timing case ('possession or a valid assignment obtained later does not establish standing retroactively'). The material captured (and, this run, independently confirmed against the complete official opinion) shows a real, material nuance Live Run 1.59 did not surface: the bank apparently already possessed the note well before filing (since August 2007), but sued in its own name as a servicer (d/b/a 'America's Servicing Company') without proving it had AUTHORITY -- via a power of attorney or pooling-and-servicing agreement -- to enforce the note on the real party in interest's behalf. The real holding combines a timing rule (standing/holder status must exist at filing) with a servicer-agency-authority proof requirement, not simply raw note-possession timing alone. This is confirmed accurate, not merely disclosed as a hypothesis."
+  },
+  "disposition": {
+    "capture_method": "Independently confirmed this run by directly reading the complete official opinion PDF -- SOURCE_VERIFIED confidence.",
+    "text": "Reversed and remanded with instructions.",
+    "full_context": "\"Accordingly, the homeowners are entitled to an involuntary dismissal of the action, and we reverse and remand for the trial court to enter such an order. In light of our reversal, the remaining issue raised by the homeowners is moot. Reversed and remanded with instructions.\" Not final until disposition of timely filed motion for rehearing (no indication in the case history available to this run that rehearing was sought or altered the disposition)."
+  },
+  "retrieval_disclosure": {
+    "mechanism": "Real, disclosed change from Live Run 1.60's original attempt: this run re-attempted the official 4th DCA opinions archive directly (4dca.flcourts.gov's Opinions-Archive search page) and could not locate a working direct PDF link through it (the search results page renders dynamically and did not return case listings to the WebFetch tool). This run also tried the specific historical URL pattern the prior run could not locate (www.4dca.org/opinions/Oct. 2015/10-14-15/4D14-100.op.pdf, the court's pre-flcourts.gov-consolidation domain and path structure) -- it 308-redirects to 4dca.flcourts.gov but the redirected URL 404s, confirming that specific historical path no longer resolves on the live site. This run then queried the CourtListener v4 search API (a public, unauthenticated JSON endpoint, distinct from CourtListener's HTML search UI which 403s to WebFetch) for this case, which returned real, structured metadata including a 'download_url' (the original court URL, now dead, corroborating the above) and, more usefully, a 'local_path' pointing to CourtListener's own stored copy of the same PDF, originally sourced from the court. WebFetch retrieved that stored PDF's raw bytes and saved them locally; the complete 8-page PDF was then read directly with the Read tool (genuine text extraction, not AI-mediated summarization) end to end, cover to cover, including both the majority opinion and Conner, J.'s concurrence.",
+    "what_was_achieved": "A complete, independently byte-read verbatim capture of the full Rodriguez v. Wells Fargo Bank, N.A. opinion (8 pages, majority opinion plus special concurrence), retrieved via CourtListener's own stored mirror of the official court PDF (docs/precedent-primary-source-plan.md's tier-2 legitimate aggregator, used here because the tier-1 official archive's specific document could not be located as a live, fetchable URL this run -- see mechanism above). Every fact, quote, holding, and disposition element in this file was independently re-derived from that complete PDF this run. Two real corrections found and fixed (see facts_and_procedural_history's and holding_and_reasoning's own correction notes).",
+    "what_was_not_achieved": "A confirmed, currently-live URL on the official 4dca.flcourts.gov site itself for this specific 2015 opinion (the court's own URL structure for opinions this old appears to have changed since the opinion issued, and this run's attempts to locate the current live equivalent via the archive's dynamic search interface were not successful).",
+    "fallback_used": "Per docs/precedent-primary-source-plan.md's fallback provision: tier 1 (official archive) was attempted in good faith and its specific live URL could not be located; tier 2 (CourtListener) succeeded, using CourtListener's own stored copy of the official court's PDF (sha1-hashed by CourtListener, sourced from the court, not a law-firm blog or commentary layer) rather than CourtListener's HTML opinion viewer (which renders via JavaScript and returned empty content to WebFetch).",
+    "aggregator_used": "CourtListener (Free Law Project) -- PDF retrieved via its public search API's 'local_path' metadata; superseding Live Run 1.60's original RETRIEVED-tier fallback source, https://caselaw.findlaw.com/court/fl-district-court-of-appeal/1715538.html.",
+    "source_url_for_manifest": "https://www.courtlistener.com/opinion/3062339/mario-a-rodriguez-and-lendy-rodriguez-v-wells-fargo-bank-na-dba/",
+    "retrieval_timestamp": "2026-08-19T00:00:00"
+  }
+}

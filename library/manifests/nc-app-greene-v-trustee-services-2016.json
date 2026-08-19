@@ -1,0 +1,33 @@
+{
+  "document_id": "nc-app-greene-v-trustee-services-2016",
+  "title": "Greene v. Trustee Services of Carolina, LLC, 244 N.C. App. 583, 781 S.E.2d 664 (N.C. App. 2016)",
+  "authority_type": "JUDICIAL_HOLDING",
+  "jurisdiction": "North Carolina",
+  "citation": "244 N.C. App. 583, 781 S.E.2d 664 (N.C. App. 2016)",
+  "official_source_url": "https://appellate.nccourts.org/opinions/?c=2&pdf=32998",
+  "publisher": "North Carolina Judicial Branch (official appellate-opinions PDF server, appellate.nccourts.org)",
+  "retrieval_timestamp": "2026-08-19T09:13:00.770377",
+  "sha256_hash": "45297ae5728f04756338872f6178e49c31a3000832a460b0cc19294f27fc0983",
+  "verification_status": "SOURCE_VERIFIED",
+  "court": "Court of Appeals of North Carolina",
+  "publication_or_effective_date": "2016-01-05",
+  "version": "1",
+  "superseded": false,
+  "licensing_status": "public domain -- judicial opinion (edict of government); SOURCE_VERIFIED this run by directly reading (not AI-summarizing) the complete 21-page official opinion PDF, retrieved directly from the court's own official opinions server, appellate.nccourts.org (www.nccourts.gov, a different host on the same Judicial Branch domain, still returns HTTP 403 to this run's fetch tool -- see notes and library/source/case-law/nc-app-greene-v-trustee-services-2016.json's own retrieval_disclosure)",
+  "source_layer": "INTERPRETATION",
+  "topics": [
+    "case-law",
+    "ucc-article-3",
+    "person-entitled-to-enforce",
+    "holder-in-due-course",
+    "foreclosure-standing",
+    "flagship-precedent-pair"
+  ],
+  "cross_references": [
+    "N.C. Gen. Stat. § 45-21.16(d)"
+  ],
+  "notes": "Interpretive step (see Rodriguez manifest's own notes for the same field-placement reconciliation): the court started from North Carolina's own Chapter 45 power-of-sale foreclosure statute (N.C. Gen. Stat. § 45-21.16(d), which requires the party seeking to foreclose to show it is the holder of the note) and North Carolina's own UCC holder-by-possession concept (the same underlying doctrine as Virginia's already-ingested § 8.3A-301/8.3A-104/8.3A-308), then reasoned that, for a note indorsed IN BLANK, mere possession -- shown by production of the original note AT THE HEARING ITSELF -- is sufficient to prove holder status, with no separate requirement to also document the note's full chain of prior transfer, because the UCC's own text does not impose one. This confirms the substantive rule Live Run 1.59's secondary-source summary described. real, disclosed correction to Live Run 1.59: the case name and party structure are materially different from what Live Run 1.59 assumed -- see library/source/case-law/nc-app-greene-v-trustee-services-2016.json's own 'real_correction_to_live_run_1_59_case_name' (the reported decision is Greene v. Trustee Services of Carolina, LLC, a third-party HOA-sale purchaser's challenge, not a suit litigated by the original mortgagors named 'Kenley'). verification_status is SOURCE_VERIFIED as of Live Run 1.62: the complete 21-page official opinion PDF was independently byte-read this run -- via the Read tool directly against a real PDF file, not AI-mediated summarization -- after CourtListener's public search API surfaced a real download_url pointing at appellate.nccourts.org, a North Carolina Judicial Branch host distinct from www.nccourts.gov (which still 403s). One real correction was found and fixed this run: a holding quote previously read '...the [trial] court properly determined...' when the opinion's actual word is 'superior' (Mr. Greene's de novo appeal, not the original clerk-of-court hearing) -- see the source file's own 'real_correction_found_this_run'. Real, additional procedural facts were also recovered that the prior aggregator-derived summary omitted: a first foreclosure attempt in 2010 was stayed by the Kenleys' bankruptcy and the underlying debt was later discharged, before U.S. Bank's second, actually-litigated 2013 foreclosure proceeding.",
+  "binding_scope": "Binding on North Carolina's own trial courts and Clerks of Superior Court presiding over Chapter 45 power-of-sale foreclosure hearings; persuasive authority only outside North Carolina.",
+  "hierarchy_level": 2,
+  "override_mechanism": "Reversal or narrowing by the North Carolina Supreme Court; the Court of Appeals itself revisiting the question in a later panel decision; or the North Carolina General Assembly amending N.C. Gen. Stat. § 45-21.16(d)'s holder-proof requirement."
+}

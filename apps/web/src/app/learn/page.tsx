@@ -17,9 +17,10 @@ const LIFECYCLES = [
 export default async function LearnPage({
   searchParams,
 }: {
-  searchParams: { lifecycle?: string };
+  searchParams: Promise<{ lifecycle?: string }>;
 }) {
-  const requestedId = searchParams.lifecycle ?? LIFECYCLES[0].id;
+  const resolvedSearchParams = await searchParams;
+  const requestedId = resolvedSearchParams.lifecycle ?? LIFECYCLES[0].id;
   const known = LIFECYCLES.some((l) => l.id === requestedId);
   const lifecycleId = known ? requestedId : LIFECYCLES[0].id;
   const lifecycle = await getLifecycle(lifecycleId);

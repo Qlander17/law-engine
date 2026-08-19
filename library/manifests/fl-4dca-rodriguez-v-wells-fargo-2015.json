@@ -1,0 +1,34 @@
+{
+  "document_id": "fl-4dca-rodriguez-v-wells-fargo-2015",
+  "title": "Rodriguez v. Wells Fargo Bank, N.A., 178 So. 3d 62 (Fla. 4th DCA 2015)",
+  "authority_type": "JUDICIAL_HOLDING",
+  "jurisdiction": "Florida",
+  "citation": "178 So. 3d 62 (Fla. 4th DCA 2015)",
+  "official_source_url": "https://www.courtlistener.com/opinion/3062339/mario-a-rodriguez-and-lendy-rodriguez-v-wells-fargo-bank-na-dba/",
+  "publisher": "CourtListener (Free Law Project), mirroring the official Florida Fourth District Court of Appeal opinion PDF",
+  "retrieval_timestamp": "2026-08-19T09:13:00.770203",
+  "sha256_hash": "4f4399a01a8b3eb955805d454c155cd07d57f92e123c266423a5b9e8fe42618d",
+  "verification_status": "SOURCE_VERIFIED",
+  "court": "District Court of Appeal of the State of Florida, Fourth District",
+  "publication_or_effective_date": "2015-10-14",
+  "version": "1",
+  "superseded": false,
+  "licensing_status": "public domain -- judicial opinion (edict of government); SOURCE_VERIFIED this run by directly reading (not AI-summarizing) the complete official opinion PDF, retrieved via CourtListener's own stored mirror of the court's PDF after the opinion's original 4dca.flcourts.gov URL was confirmed dead (see notes and library/source/case-law/fl-4dca-rodriguez-v-wells-fargo-2015.json's own retrieval_disclosure)",
+  "source_layer": "INTERPRETATION",
+  "topics": [
+    "case-law",
+    "ucc-article-3",
+    "person-entitled-to-enforce",
+    "holder-in-due-course",
+    "foreclosure-standing",
+    "flagship-precedent-pair"
+  ],
+  "cross_references": [
+    "Fla. Stat. § 673.3011",
+    "Fla. Stat. § 671.201(21)(a)"
+  ],
+  "notes": "Interpretive step (Phase 4's requested plain-language summary of the court's own reasoning, per docs/law-engine-authority-model-and-constitutional-flagship.md §2 -- see module docstring's reconciliation note on field placement): the court started from Florida's own enactment of the UCC holder/person-entitled-to-enforce concept (Fla. Stat. §§ 673.3011, 671.201(21)(a) -- the same underlying doctrine as Virginia's already-ingested § 8.3A-301/8.3A-104/8.3A-308) and its own prior standing-at-filing precedent (McLean v. JP Morgan Chase, 79 So. 3d 170), then reasoned that a party suing as a SERVICER rather than in its own name as holder must additionally prove, as of the filing date, that it had real authority (via a power of attorney or pooling-and-servicing agreement) to enforce the note on the true holder's behalf -- bare possession of the note by the servicer's principal, without that proof in the record, does not establish the plaintiff-servicer's own standing. real, disclosed correction to docs/law-engine-precedent-conflict-thesis.md's Live Run 1.59 secondary-source summary: that document described this case as purely a note-possession-timing holding; the material retrieved this run shows the real holding turns substantially on servicer-authority proof, not bare possession timing alone (see library/source/case-law/fl-4dca-rodriguez-v-wells-fargo-2015.json's own 'real_correction_to_live_run_1_59_summary'). verification_status is SOURCE_VERIFIED as of Live Run 1.62: the complete 8-page official opinion PDF (majority opinion plus Conner, J.'s special concurrence) was independently byte-read this run -- via the Read tool directly against a real PDF file, not AI-mediated summarization -- after CourtListener's public search API surfaced its own stored mirror of the official court PDF (the opinion's original 4dca.flcourts.gov/4dca.org URL is now dead). Two real corrections were found and fixed this run: the complaint's quoted allegation was previously truncated (missing 'and/or is entitled to enforce the Mortgage Note and Mortgage'), and one holding quote was mis-attributed as unqualified majority language when it is actually from Conner, J.'s concurrence -- see the source file's own 'real_correction_found_this_run' and 'quote_attribution_note'. The Conner concurrence's 'possession of the note is the significant core element' sentence remains independently double-confirmed: once via a later citing opinion (Caraccia v. U.S. Bank, 4D15-825, Fla. 4th DCA Feb. 24, 2016) and now directly within Rodriguez itself -- see the source file's own verbatim_confirmed_excerpts.",
+  "binding_scope": "Binding on trial courts within Florida's Fourth District Court of Appeal's own territorial jurisdiction; persuasive authority only elsewhere in Florida and outside Florida entirely.",
+  "hierarchy_level": 2,
+  "override_mechanism": "Reversal, narrowing, or quashal by the Florida Supreme Court; the Fourth DCA itself revisiting the question in a later panel or en banc decision; or the Florida Legislature amending Fla. Stat. §§ 673.3011/671.201(21)(a)'s holder/person-entitled-to-enforce text in a way that displaces the court's interpretation."
+}

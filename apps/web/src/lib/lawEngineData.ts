@@ -60,19 +60,15 @@ export async function getPracticeSet(): Promise<PracticeSet> {
   return JSON.parse(raw) as PracticeSet;
 }
 
-const TASK_LADDER_PATH = path.join(
-  LAW_ENGINE_ROOT,
-  "library",
-  "normalized",
-  "tasks",
-  "article-2-consumer-to-operator-ladder.json"
-);
+const TASKS_DIR = path.join(LAW_ENGINE_ROOT, "library", "normalized", "tasks");
 
 // Live Run 1.48 -- the first real Task Ladder (services/tasks.py),
 // implementing the Task-First pedagogy Live Run 1.47B designed but
-// deliberately did not build.
-export async function getTaskLadder(): Promise<TaskLadder> {
-  const raw = await fs.readFile(TASK_LADDER_PATH, "utf-8");
+// deliberately did not build. Live Run 1.49 -- parameterized by file
+// name so the real mini-simulation (services/simulations.py) can be
+// read the same way, no second data-access function needed.
+export async function getTaskLadder(fileName = "article-2-consumer-to-operator-ladder.json"): Promise<TaskLadder> {
+  const raw = await fs.readFile(path.join(TASKS_DIR, fileName), "utf-8");
   return JSON.parse(raw) as TaskLadder;
 }
 

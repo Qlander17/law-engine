@@ -57,7 +57,19 @@ class AuthorityType(str, Enum):
     """What KIND of authority a source is -- orthogonal to how verified it
     is. A CLAIM_ALTERNATIVE_THEORY can be fully SOURCE_VERIFIED (we
     correctly captured what the claim says) while never being VERIFIED as
-    legally controlling."""
+    legally controlling.
+
+    JUDICIAL_HOLDING / DICTA / PERSUASIVE_OPINION / COMMON_LAW_RULE /
+    ADMINISTRATIVE_INTERPRETATION added Live Run 1.60, Mission 8, Phase 4,
+    implementing the source-type refinement
+    docs/law-engine-authority-model-and-constitutional-flagship.md §1
+    designed: the prior generic CASE bucket doesn't distinguish a binding
+    holding from dicta or from a persuasive out-of-hierarchy opinion --
+    exactly the distinction the precedent-conflict thesis
+    (docs/law-engine-precedent-conflict-thesis.md §1) is built on. CASE
+    itself is left in place, unremoved, for any future source that is
+    real but not yet classified into one of the five finer-grained kinds --
+    a real, disclosed both/and, not a breaking rename."""
 
     CONSTITUTION = "CONSTITUTION"
     STATUTE = "STATUTE"
@@ -68,6 +80,11 @@ class AuthorityType(str, Enum):
     TREATISE = "TREATISE"
     SECONDARY_AUTHORITY = "SECONDARY_AUTHORITY"
     CLAIM_ALTERNATIVE_THEORY = "CLAIM_ALTERNATIVE_THEORY"
+    JUDICIAL_HOLDING = "JUDICIAL_HOLDING"
+    DICTA = "DICTA"
+    PERSUASIVE_OPINION = "PERSUASIVE_OPINION"
+    COMMON_LAW_RULE = "COMMON_LAW_RULE"
+    ADMINISTRATIVE_INTERPRETATION = "ADMINISTRATIVE_INTERPRETATION"
 
 
 @dataclass
@@ -101,6 +118,22 @@ class SourceManifest:
     topics: list[str] = field(default_factory=list)
     cross_references: list[str] = field(default_factory=list)
     notes: str = ""
+    # Three new fields (Live Run 1.60, Mission 8, Phase 4), implementing
+    # docs/law-engine-authority-model-and-constitutional-flagship.md §1's
+    # source-type model. All optional/defaulted to None so no existing
+    # SourceManifest construction anywhere in the codebase breaks -- most
+    # meaningful for a JUDICIAL_HOLDING source (a statute's binding_scope,
+    # hierarchy_level, and override_mechanism are usually self-evident from
+    # jurisdiction/authority_type alone; a case's are not).
+    binding_scope: str | None = None       # who is actually bound (free text, per the design doc)
+    # Integer rank within this authority's OWN system, not a cross-system
+    # comparison -- 1 is that system's highest authority (e.g., a state's
+    # highest court, or a constitution within its own sovereign), larger
+    # numbers are lower (trial court > intermediate appellate > highest
+    # court becomes 3 > 2 > 1). Per the design doc: "an integer ... capturing
+    # court/authority rank within its own system."
+    hierarchy_level: int | None = None
+    override_mechanism: str | None = None  # how this specific authority can change
 
     def to_dict(self) -> dict:
         d = {
@@ -123,6 +156,9 @@ class SourceManifest:
             "topics": self.topics,
             "cross_references": self.cross_references,
             "notes": self.notes,
+            "binding_scope": self.binding_scope,
+            "hierarchy_level": self.hierarchy_level,
+            "override_mechanism": self.override_mechanism,
         }
         return d
 
@@ -372,3 +408,49 @@ class PedagogicalContract:
 
 def now_iso() -> str:
     return datetime.now().isoformat()
+
+
+# Real ordering: index position reflects how much verification has
+# actually happened, not a claim about likelihood of correctness --
+# reused directly by legal_proof_graph.py's own weakest-link
+# computations (list(VerificationStatus) gives this exact order).
+_VERIFICATION_STATUS_ORDER: list[VerificationStatus] = list(VerificationStatus)
+
+# Real mapping (Live Run 1.60, Mission 8, Phase 5), implementing the
+# mapping services/legal_proof_graph.py's own docstring previously
+# flagged as "future work, not implemented here." A caller-facing
+# ConfidenceLabel must never overclaim relative to how a source was
+# actually verified -- CONFLICT and UNKNOWN are never presented as
+# anything but their own honest labels; a source that is merely
+# DISCOVERED or RETRIEVED (not yet independently checked against its own
+# claimed source) is UNVERIFIED, never LIKELY or VERIFIED, even if it
+# turns out to be correct.
+_VERIFICATION_STATUS_TO_CONFIDENCE_LABEL: dict[VerificationStatus, ConfidenceLabel] = {
+    VerificationStatus.CONFLICT: ConfidenceLabel.CONFLICTING,
+    VerificationStatus.UNKNOWN: ConfidenceLabel.UNVERIFIED,
+    VerificationStatus.DISCOVERED: ConfidenceLabel.UNVERIFIED,
+    VerificationStatus.RETRIEVED: ConfidenceLabel.UNVERIFIED,
+    VerificationStatus.SOURCE_VERIFIED: ConfidenceLabel.LIKELY,
+    VerificationStatus.AUTHORITY_CLASSIFIED: ConfidenceLabel.LIKELY,
+    VerificationStatus.CURRENTNESS_CHECKED: ConfidenceLabel.LIKELY,
+    VerificationStatus.CROSS_VERIFIED: ConfidenceLabel.VERIFIED,
+    VerificationStatus.TRUSTED_FOR_ANALYSIS: ConfidenceLabel.VERIFIED,
+}
+
+
+def verification_status_to_confidence_label(status: VerificationStatus) -> ConfidenceLabel:
+    """The real mapping a caller-facing surface must use to turn an
+    internal VerificationStatus into the coarser ConfidenceLabel it's
+    allowed to show a user -- never invented ad hoc at each call site."""
+    return _VERIFICATION_STATUS_TO_CONFIDENCE_LABEL[status]
+
+
+def weakest_verification_status(statuses: list[VerificationStatus]) -> VerificationStatus:
+    """Real, shared weakest-link helper -- the same ordinal pattern
+    services/legal_proof_graph.py's own weakest_link_verification_status
+    already used for facts, factored out here so Phase 5's new
+    authority-chain computation reuses it rather than re-deriving the
+    ordering logic a second time."""
+    if not statuses:
+        raise ValueError("weakest_verification_status() requires at least one status.")
+    return min(statuses, key=_VERIFICATION_STATUS_ORDER.index)

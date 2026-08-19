@@ -1,0 +1,179 @@
+{
+  "8.3A-102": {
+    "title": "Subject matter",
+    "paragraphs": [
+      "(a) This title applies to negotiable instruments. It does not apply to money, to payment orders governed by Title 8.4A, or to securities governed by Title 8.8A.",
+      "(b) If there is conflict between this title and Title 8.4 or 8.9A, Titles 8.4 and 8.9A govern.",
+      "(c) Regulations of the Board of Governors of the Federal Reserve System and operating circulars of the Federal Reserve Banks supersede any inconsistent provision of this title to the extent of the inconsistency."
+    ]
+  },
+  "8.3A-103": {
+    "title": "Definitions",
+    "paragraphs": [
+      "(a) In this title:",
+      "(1) \"Acceptor\" means a drawee who has accepted a draft.",
+      "(2) \"Drawee\" means a person ordered in a draft to make payment.",
+      "(3) \"Drawer\" means a person who signs or is identified in a draft as a person ordering payment.",
+      "(4) \"Good faith\" means honesty in fact and the observance of reasonable commercial standards of fair dealing.",
+      "(5) \"Maker\" means a person who signs or is identified in a note as a person undertaking to pay.",
+      "(6) \"Order\" means a written instruction to pay money signed by the person giving the instruction. The instruction may be addressed to any person, including the person giving the instruction, or to one or more persons jointly or in the alternative but not in succession. An authorization to pay is not an order unless the person authorized to pay is also instructed to pay.",
+      "(7) \"Ordinary care\" in the case of a person engaged in business means observance of reasonable commercial standards, prevailing in the area in which the person is located, with respect to the business in which the person is engaged. In the case of a bank that takes an instrument for processing for collection or payment by automated means, reasonable commercial standards do not require the bank to examine the instrument if the failure to examine does not violate the bank's prescribed procedures and the bank's procedures do not vary unreasonably from general banking usage not disapproved by this title or Title 8.4.",
+      "(8) \"Party\" means a party to an instrument.",
+      "(9) \"Promise\" means a written undertaking to pay money signed by the person undertaking to pay. An acknowledgment of an obligation by the obligor is not a promise unless the obligor also undertakes to pay the obligation.",
+      "(10) \"Prove\" with respect to a fact means to meet the burden of establishing the fact (§ 8.1A-201(b)(8)).",
+      "(11) \"Remitter\" means a person who purchases an instrument from its issuer if the instrument is payable to an identified person other than the purchaser.",
+      "(b) Other definitions applying to this title and the sections in which they appear are:",
+      "\"Acceptance,\" § 8.3A-409.",
+      "\"Accommodated party,\" § 8.3A-419.",
+      "\"Accommodation party,\" § 8.3A-419.",
+      "\"Alteration,\" § 8.3A-407.",
+      "\"Anomalous endorsement,\" § 8.3A-205.",
+      "\"Blank endorsement,\" § 8.3A-205.",
+      "\"Cashier's check,\" § 8.3A-104.",
+      "\"Certificate of deposit,\" § 8.3A-104.",
+      "\"Certified check,\" § 8.3A-409.",
+      "\"Check,\" § 8.3A-104.",
+      "\"Consideration,\" § 8.3A-303.",
+      "\"Draft,\" § 8.3A-104.",
+      "\"Holder in due course,\" § 8.3A-302.",
+      "\"Incomplete instrument,\" § 8.3A-115.",
+      "\"Endorsement,\" § 8.3A-204.",
+      "\"Endorser,\" § 8.3A-204.",
+      "\"Instrument,\" § 8.3A-104.",
+      "\"Issue,\" § 8.3A-105.",
+      "\"Issuer,\" § 8.3A-105.",
+      "\"Negotiable instrument,\" § 8.3A-104.",
+      "\"Negotiation,\" § 8.3A-201.",
+      "\"Note,\" § 8.3A-104.",
+      "\"Payable at a definite time,\" § 8.3A-108.",
+      "\"Payable on demand,\" § 8.3A-108.",
+      "\"Payable to bearer,\" § 8.3A-109.",
+      "\"Payable to order,\" § 8.3A-109.",
+      "\"Payment,\" § 8.3A-602.",
+      "\"Person entitled to enforce,\" § 8.3A-301.",
+      "\"Presentment,\" § 8.3A-501.",
+      "\"Reacquisition,\" § 8.3A-207.",
+      "\"Special endorsement,\" § 8.3A-205.",
+      "\"Teller's check,\" § 8.3A-104.",
+      "\"Transfer of instrument,\" § 8.3A-203.",
+      "\"Traveler's check,\" § 8.3A-104.",
+      "\"Value,\" § 8.3A-303.",
+      "(c) The following definitions in other titles apply to this title:",
+      "\"Bank,\" § 8.4-105.",
+      "\"Banking day,\" § 8.4-104.",
+      "\"Clearing house,\" § 8.4-104.",
+      "\"Collecting bank,\" § 8.4-105.",
+      "\"Depositary bank,\" § 8.4-105.",
+      "\"Documentary draft,\" § 8.4-104.",
+      "\"Intermediary bank,\" § 8.4-105.",
+      "\"Item,\" § 8.4-104.",
+      "\"Payor bank,\" § 8.4-105.",
+      "\"Suspends payments,\" § 8.4-104.",
+      "(d) In addition, Title 8.1A contains general definitions and principles of construction and interpretation applicable throughout this title."
+    ]
+  },
+  "8.3A-104": {
+    "title": "Negotiable instrument",
+    "paragraphs": [
+      "(a) Except as provided in subsections (c) and (d), \"negotiable instrument\" means an unconditional promise or order to pay a fixed amount of money, with or without interest or other charges described in the promise or order, if it:",
+      "(1) is payable to bearer or to order at the time it is issued or first comes into possession of a holder;",
+      "(2) is payable on demand or at a definite time; and",
+      "(3) does not state any other undertaking or instruction by the person promising or ordering payment to do any act in addition to the payment of money, but the promise or order may contain (i) an undertaking or power to give, maintain, or protect collateral to secure payment, (ii) an authorization or power to the holder to confess judgment or realize on or dispose of collateral, (iii) a waiver of the benefit of any law intended for the advantage or protection of an obligor, (iv) a term that specifies the law that governs the promise or order, or (v) an undertaking to resolve in a specified forum a dispute concerning the promise or order.",
+      "(b) \"Instrument\" means a negotiable instrument.",
+      "(c) An order that meets all of the requirements of subsection (a), except paragraph (1), and otherwise falls within the definition of \"check\" in subsection (f) is a negotiable instrument and a check.",
+      "(d) A promise or order other than a check is not an instrument if, at the time it is issued or first comes into possession of a holder, it contains a conspicuous statement, however expressed, to the effect that the promise or order is not negotiable or is not an instrument governed by this title.",
+      "(e) An instrument is a \"note\" if it is a promise and is a \"draft\" if it is an order. If an instrument falls within the definition of both \"note\" and \"draft,\" a person entitled to enforce the instrument may treat it as either.",
+      "(f) \"Check\" means (i) a draft, other than a documentary draft, payable on demand and drawn on a bank or (ii) a cashier's check or teller's check. An instrument may be a check even though it is described on its face by another term, such as \"money order.\"",
+      "(g) \"Cashier's check\" means a draft with respect to which the drawer and drawee are the same bank or branches of the same bank.",
+      "(h) \"Teller's check\" means a draft drawn by a bank (i) on another bank, or (ii) payable at or through a bank.",
+      "(i) \"Traveler's check\" means an instrument that (i) is payable on demand, (ii) is drawn on or payable at or through a bank, (iii) is designated by the term \"traveler's check\" or by a substantially similar term, and (iv) requires, as a condition to payment, a countersignature by a person whose specimen signature appears on the instrument.",
+      "(j) \"Certificate of deposit\" means an instrument containing an acknowledgment by a bank that a sum of money has been received by the bank and a promise by the bank to repay the sum of money. A certificate of deposit is a note of the bank."
+    ]
+  },
+  "8.3A-109": {
+    "title": "Payable to bearer or to order",
+    "paragraphs": [
+      "(a) A promise or order is payable to bearer if it: (1) states that it is payable to bearer or to the order of bearer or otherwise indicates that the person in possession of the promise or order is entitled to payment; (2) does not state a payee; or (3) states that it is payable to or to the order of cash or otherwise indicates that it is not payable to an identified person.",
+      "(b) A promise or order that is not payable to bearer is payable to order if it is payable (i) to the order of an identified person or (ii) to an identified person or order. A promise or order that is payable to order is payable to the identified person.",
+      "(c) An instrument payable to bearer may become payable to an identified person if it is specially endorsed pursuant to § 8.3A-205 (a). An instrument payable to an identified person may become payable to bearer if it is endorsed in blank pursuant to § 8.3A-205 (b)."
+    ]
+  },
+  "8.3A-201": {
+    "title": "Negotiation",
+    "paragraphs": [
+      "(a) \"Negotiation\" means a transfer of possession, whether voluntary or involuntary, of an instrument by a person other than the issuer to a person who thereby becomes its holder.",
+      "(b) Except for negotiation by a remitter, if an instrument is payable to an identified person, negotiation requires transfer of possession of the instrument and its endorsement by the holder. If an instrument is payable to bearer, it may be negotiated by transfer of possession alone."
+    ]
+  },
+  "8.3A-203": {
+    "title": "Transfer of instrument; rights acquired by transfer",
+    "paragraphs": [
+      "(a) An instrument is transferred when it is delivered by a person other than its issuer for the purpose of giving to the person receiving delivery the right to enforce the instrument.",
+      "(b) Transfer of an instrument, whether or not the transfer is a negotiation, vests in the transferee any right of the transferor to enforce the instrument, including any right as a holder in due course, but the transferee cannot acquire rights of a holder in due course by a transfer, directly or indirectly, from a holder in due course if the transferee engaged in fraud or illegality affecting the instrument.",
+      "(c) Unless otherwise agreed, if an instrument is transferred for value and the transferee does not become a holder because of lack of endorsement by the transferor, the transferee has a specifically enforceable right to the unqualified endorsement of the transferor, but negotiation of the instrument does not occur until the endorsement is made.",
+      "(d) If a transferor purports to transfer less than the entire instrument, negotiation of the instrument does not occur. The transferee obtains no rights under this title and has only the rights of a partial assignee."
+    ]
+  },
+  "8.3A-204": {
+    "title": "Endorsement",
+    "paragraphs": [
+      "(a) \"Endorsement\" means a signature, other than that of a signer as maker, drawer, or acceptor, that alone or accompanied by other words is made on an instrument for the purpose of (i) negotiating the instrument, (ii) restricting payment of the instrument, or (iii) incurring endorser's liability on the instrument, but regardless of the intent of the signer, a signature and its accompanying words is an endorsement unless the accompanying words, terms of the instrument, place of the signature, or other circumstances unambiguously indicate that the signature was made for a purpose other than endorsement. For the purpose of determining whether a signature is made on an instrument, a paper affixed to the instrument is a part of the instrument.",
+      "(b) \"Endorser\" means a person who makes an endorsement.",
+      "(c) For the purpose of determining whether the transferee of an instrument is a holder, an endorsement that transfers a security interest in the instrument is effective as an unqualified endorsement of the instrument.",
+      "(d) If an instrument is payable to a holder under a name that is not the name of the holder, endorsement may be made by the holder in the name stated in the instrument or in the holder's name or both, but signature in both names may be required by a person paying or taking the instrument for value or collection."
+    ]
+  },
+  "8.3A-205": {
+    "title": "Special endorsement; blank endorsement; anomalous endorsement",
+    "paragraphs": [
+      "(a) If an endorsement is made by the holder of an instrument, whether payable to an identified person or payable to bearer, and the endorsement identifies a person to whom it makes the instrument payable, it is a \"special endorsement.\" When specially endorsed, an instrument becomes payable to the identified person and may be negotiated only by the endorsement of that person. The principles stated in § 8.3A-110 apply to special endorsements.",
+      "(b) If an endorsement is made by the holder of an instrument and it is not a special endorsement, it is a \"blank endorsement.\" When endorsed in blank, an instrument becomes payable to bearer and may be negotiated by transfer of possession alone until specially endorsed.",
+      "(c) The holder may convert a blank endorsement that consists only of a signature into a special endorsement by writing, above the signature of the endorser, words identifying the person to whom the instrument is made payable.",
+      "(d) \"Anomalous endorsement\" means an endorsement made by a person who is not the holder of the instrument. An anomalous endorsement does not affect the manner in which the instrument may be negotiated."
+    ]
+  },
+  "8.3A-206": {
+    "title": "Restrictive endorsement",
+    "paragraphs": [
+      "(a) An endorsement limiting payment to a particular person or otherwise prohibiting further transfer or negotiation of the instrument is not effective to prevent further transfer or negotiation of the instrument.",
+      "(b) An endorsement stating a condition to the right of the endorsee to receive payment does not affect the right of the endorsee to enforce the instrument. A person paying the instrument or taking it for value or collection may disregard the condition, and the rights and liabilities of that person are not affected by whether the condition has been fulfilled.",
+      "(c) If an instrument bears an endorsement (i) described in § 8.4-201 (b), or (ii) in blank or to a particular bank using the words \"for deposit,\" \"for collection,\" or other words indicating a purpose of having the instrument collected by a bank for the endorser or for a particular account, the following rules apply:",
+      "(1) A person, other than a bank, who purchases the instrument when so endorsed converts the instrument unless the amount paid for the instrument is received by the endorser or applied consistently with the endorsement.",
+      "(2) A depositary bank that purchases the instrument or takes it for collection when so endorsed converts the instrument unless the amount paid by the bank with respect to the instrument is received by the endorser or applied consistently with the endorsement.",
+      "(3) A payor bank that is also the depositary bank or that takes the instrument for immediate payment over the counter from a person other than a collecting bank converts the instrument unless the proceeds of the instrument are received by the endorser or applied consistently with the endorsement.",
+      "(4) Except as otherwise provided in paragraph (3), a payor bank or intermediary bank may disregard the endorsement and is not liable if the proceeds of the instrument are not received by the endorser or applied consistently with the endorsement.",
+      "(d) Except for an endorsement covered by subsection (c), if an instrument bears an endorsement using words to the effect that payment is to be made to the endorsee as agent, trustee, or other fiduciary for the benefit of the endorser or another person, the following rules apply:",
+      "(1) Unless there is notice of breach of fiduciary duty as provided in § 8.3A-307, a person who purchases the instrument from the endorsee or takes the instrument from the endorsee for collection or payment may pay the proceeds of payment or the value given for the instrument to the endorsee without regard to whether the endorsee violates a fiduciary duty to the endorser.",
+      "(2) A subsequent transferee of the instrument or person who pays the instrument is neither given notice nor otherwise affected by the restriction in the endorsement unless the transferee or payor knows that the fiduciary dealt with the instrument or its proceeds in breach of fiduciary duty.",
+      "(e) The presence on an instrument of an endorsement to which this section applies does not prevent a purchaser of the instrument from becoming a holder in due course of the instrument unless the purchaser is a converter under subsection (c) or has notice or knowledge of breach of fiduciary duty as stated in subsection (d).",
+      "(f) In an action to enforce the obligation of a party to pay the instrument, the obligor has a defense if payment would violate an endorsement to which this section applies and the payment is not permitted by this section."
+    ]
+  },
+  "8.3A-301": {
+    "title": "Person entitled to enforce instrument",
+    "paragraphs": [
+      "\"Person entitled to enforce\" an instrument means (i) the holder of the instrument, (ii) a nonholder in possession of the instrument who has the rights of a holder, or (iii) a person not in possession of the instrument who is entitled to enforce the instrument pursuant to § 8.3A-309 or § 8.3A-418 (d). A person may be a person entitled to enforce the instrument even though the person is not the owner of the instrument or is in wrongful possession of the instrument."
+    ]
+  },
+  "8.3A-308": {
+    "title": "Proof of signatures and status as holder in due course",
+    "paragraphs": [
+      "(a) In an action with respect to an instrument, the authenticity of, and authority to make, each signature on the instrument is admitted unless specifically denied in the pleadings. If the validity of a signature is denied in the pleadings, the burden of establishing validity is on the person claiming validity, but the signature is presumed to be authentic and authorized unless the action is to enforce the liability of the purported signer and the signer is dead or incapacitated at the time of trial of the issue of validity of the signature. If an action to enforce the instrument is brought against a person as the undisclosed principal of a person who signed the instrument as a party to the instrument, the plaintiff has the burden of establishing that the defendant is liable on the instrument as a represented person under § 8.3A-402 (a).",
+      "(b) If the validity of signatures is admitted or proved and there is compliance with subsection (a), a plaintiff producing the instrument is entitled to payment if the plaintiff proves entitlement to enforce the instrument under § 8.3A-301, unless the defendant proves a defense or claim in recoupment. If a defense or claim in recoupment is proved, the right to payment of the plaintiff is subject to the defense or claim, except to the extent the plaintiff proves that the plaintiff has rights of a holder in due course which are not subject to the defense or claim."
+    ]
+  },
+  "8.3A-302": {
+    "title": "Holder in due course",
+    "paragraphs": [
+      "(a) Subject to subsection (c) and § 8.3A-106 (d), \"holder in due course\" means the holder of an instrument if:",
+      "(1) the instrument when issued or negotiated to the holder does not bear such apparent evidence of forgery or alteration or is not otherwise so irregular or incomplete as to call into question its authenticity; and",
+      "(2) the holder took the instrument (i) for value, (ii) in good faith, (iii) without notice that the instrument is overdue or has been dishonored or that there is an uncured default with respect to payment of another instrument issued as part of the same series, (iv) without notice that the instrument contains an unauthorized signature or has been altered, (v) without notice of any claim to the instrument described in § 8.3A-306, and (vi) without notice that any party has a defense or claim in recoupment described in § 8.3A-305 (a).",
+      "(b) Notice of discharge of a party, other than discharge in an insolvency proceeding, is not notice of a defense under subsection (a), but discharge is effective against a person who became a holder in due course with notice of the discharge. Public filing or recording of a document does not of itself constitute notice of a defense, claim in recoupment, or claim to the instrument.",
+      "(c) Except to the extent a transferor or predecessor in interest has rights as a holder in due course, a person does not acquire rights of a holder in due course of an instrument taken (i) by legal process or by purchase in an execution, bankruptcy, or creditor's sale or similar proceeding, (ii) by purchase as part of a bulk transaction not in ordinary course of business of the transferor, or (iii) as the successor in interest to an estate or other organization.",
+      "(d) If, under § 8.3A-303 (a) (1), the promise of performance that is the consideration for an instrument has been partially performed, the holder may assert rights as a holder in due course of the instrument only to the fraction of the amount payable under the instrument equal to the value of the partial performance divided by the value of the promised performance.",
+      "(e) If (i) the person entitled to enforce an instrument has only a security interest in the instrument and (ii) the person obliged to pay the instrument has a defense, claim in recoupment, or claim to the instrument that may be asserted against the person who granted the security interest, the person entitled to enforce the instrument may assert rights as a holder in due course only to an amount payable under the instrument which, at the time of enforcement of the instrument, does not exceed the amount of the unpaid obligation secured.",
+      "(f) To be effective, notice must be received at a time and in a manner that gives a reasonable opportunity to act on it.",
+      "(g) This section is subject to any law limiting status as a holder in due course in particular classes of transactions."
+    ]
+  }
+}

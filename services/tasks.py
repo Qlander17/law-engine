@@ -68,6 +68,27 @@ class Task:
     next_task_id: str | None = None
     prerequisite_task_id: str | None = None
 
+    # Live Run 1.49 -- simulation fields, extending Task rather than a
+    # second parallel schema (see docs/task-first-pedagogy-and-task-
+    # ladder-architecture.md's "Simulation fields" section). All
+    # optional: a plain Task leaves these at their defaults; a real
+    # multi-step simulation (services/simulations.py) populates the ones
+    # that apply.
+    business_or_personal_context: str = ""
+    time_pressure: str = ""
+    financial_stakes: str = ""
+    documents_not_yet_obtained: list[str] = field(default_factory=list)
+    parties_involved: list[str] = field(default_factory=list)
+    discoverable_actions: list[str] = field(default_factory=list)
+    business_effect: str = ""
+    legal_effect: str = ""
+    evidence_created_preserved_or_lost: str = ""
+    rights_created_waived_or_preserved: str = ""
+    deadlines: list[str] = field(default_factory=list)
+    escalation_point: str = ""
+    competency_id: str = ""
+    next_variant_ids: list[str] = field(default_factory=list)
+
     def validate(self) -> None:
         if not self.options:
             raise TaskError(f"Task {self.task_id!r} has no options.")
@@ -97,6 +118,16 @@ class Task:
             "hidden_or_irrelevant_facts": self.hidden_or_irrelevant_facts,
             "difficulty": self.difficulty, "next_task_id": self.next_task_id,
             "prerequisite_task_id": self.prerequisite_task_id,
+            "business_or_personal_context": self.business_or_personal_context,
+            "time_pressure": self.time_pressure, "financial_stakes": self.financial_stakes,
+            "documents_not_yet_obtained": self.documents_not_yet_obtained,
+            "parties_involved": self.parties_involved,
+            "discoverable_actions": self.discoverable_actions,
+            "business_effect": self.business_effect, "legal_effect": self.legal_effect,
+            "evidence_created_preserved_or_lost": self.evidence_created_preserved_or_lost,
+            "rights_created_waived_or_preserved": self.rights_created_waived_or_preserved,
+            "deadlines": self.deadlines, "escalation_point": self.escalation_point,
+            "competency_id": self.competency_id, "next_variant_ids": self.next_variant_ids,
         }
 
 

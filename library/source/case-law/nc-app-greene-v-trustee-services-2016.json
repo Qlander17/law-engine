@@ -1,0 +1,69 @@
+{
+  "case_name": "Greene v. Trustee Services of Carolina, LLC",
+  "real_correction_to_live_run_1_59_case_name": "Live Run 1.59 named this case 'In re Foreclosure of Kenley.' That is real, but it is the underlying special-proceeding caption, not the reported appellate case name. Jeffrey and Laura Kenley were the original mortgagors whose deed of trust was foreclosed; the actual appellant who litigated and lost the argument that the noteholder failed to prove holder status is Shaka Greene, a third party who separately purchased the property at a subordinate homeowners'-association-lien foreclosure sale. The reported decision is captioned Greene v. Trustee Services of Carolina, LLC (and U.S. Bank, National Association), disposing of two consolidated appeals (COA15-90, a civil quiet-title action, and COA15-97, the special-proceeding appeal captioned 'In re Foreclosure of [the Kenleys' Deed of Trust]'). This is disclosed as a real, material correction to the case name and party structure, not papered over -- the underlying substantive UCC holding Live Run 1.59 summarized (possession of a blank-indorsed note, shown at the hearing, establishes holder status) is confirmed accurate.",
+  "official_citation": "244 N.C. App. 583, 781 S.E.2d 664 (N.C. App. 2016)",
+  "other_reported_citations": ["88 U.C.C. Rep. Serv. 2d (West) 648", "2016 N.C. App. LEXIS 57"],
+  "docket_numbers": ["COA15-90", "COA15-97"],
+  "court": "Court of Appeals of North Carolina",
+  "date_filed": "2016-01-05",
+  "trial_court_docket_numbers": {
+    "civil_quiet_title_action": "Union County, No. 14 CVS 1717",
+    "special_foreclosure_proceeding": "Union County, No. 13 SP 183"
+  },
+  "parties": {
+    "appellant": "Shaka Greene",
+    "appellees": "Trustee Services of Carolina, LLC; U.S. Bank, National Association"
+  },
+  "trial_judge_below": "W. David Lee",
+  "counsel": {
+    "for_plaintiff_respondent_appellant_greene": "The Law Office of Erin E. Rozzelle, PLLC, by Erin Rozzelle",
+    "for_defendant_petitioner_appellee_trustee_services": "Brock & Scott, PLLC, by Jolee M. Wortham",
+    "for_defendant_petitioner_appellee_us_bank": "Bell, Davis & Pitt, P.A., by Adam T. Duke and D. Anderson Carmen"
+  },
+  "panel": {
+    "authoring_judge": "Geer, J.",
+    "concurring_judges": ["McGee, C.J.", "Tyson, J."],
+    "panel_confidence_note": "Independently confirmed this run by directly reading (via the Read tool, not AI summarization) the complete, official North Carolina Court of Appeals opinion PDF, retrieved from the court's own official opinions server (appellate.nccourts.org) -- the caption page states 'GEER, Judge.' as the author, and the final page states 'Chief Judge McGee and Judge TYSON concur.' This resolves the prior run's open gap (one WebSearch-derived synthesis had attributed authorship to Judge Martha Geer without independent confirmation; that attribution is now confirmed correct)."
+  },
+  "facts_and_procedural_history": {
+    "summary_capture_method": "Independently confirmed this run by directly reading (via the Read tool, not AI summarization) the complete, official North Carolina Court of Appeals opinion PDF (21 pages), retrieved from the court's own official opinions server, appellate.nccourts.org/opinions/?c=2&pdf=32998 -- SOURCE_VERIFIED confidence, not the prior run's RETRIEVED-only aggregator extraction.",
+    "facts": [
+      "On 29 September 2005, Jeffrey and Laura Kenley executed a promissory note (the 'Note') in the original amount of $296,700.00 in favor of Homebanc Mortgage Corporation, secured by a Deed of Trust encumbering the property, recorded in Union County, North Carolina.",
+      "The Kenleys defaulted under the terms of the Note by failing to make monthly payments beginning 1 July 2009.",
+      "On 11 March 2010, the Kenleys filed for Chapter 7 bankruptcy, stating in their petition that they intended to surrender the property.",
+      "Real correction/addition (not in Live Run 1.60's original capture): on 12 March 2010, U.S. Bank, N.A., through substitute trustee David Simpson, first initiated foreclosure proceedings against the Kenleys, in Union County special proceeding 10 SP 449. That proceeding was stayed due to the Kenleys' bankruptcy. On 16 May 2010, the bankruptcy court granted U.S. Bank's motion for relief from the stay to allow the foreclosure to proceed. On or about 30 June 2010, the Kenleys obtained a bankruptcy discharge that included the debt based on the Note.",
+      "The Kenleys also defaulted on homeowners' association dues; on 6 October 2011, the Emerald Lake at Country Woods Homeowners Association, Inc. filed a claim of lien on the property. The Association foreclosed on that lien, and the property was sold at a public sale on 2 May 2012 to the highest bidder, Shaka Greene, for $4,706.41 (a non-warranty Association Lien Foreclosure Deed, recorded 27 July 2012). Mr. Greene did not conduct a title search before purchasing and understood a superior lien could exist. He occupied the property as his primary residence beginning 1 August 2012.",
+      "On 8 February 2013, U.S. Bank, through substitute trustee Trustee Services, initiated the foreclosure proceeding actually at issue on this appeal against the Kenleys, in Union County special proceeding 13 SP 183. Mr. Greene, as the property's then-record owner, received notice and appeared at the clerk-of-court hearing on 2 April 2014; the clerk entered an order authorizing the foreclosure sale, and Mr. Greene appealed to superior court for de novo review on 10 April 2014.",
+      "On 3 July 2014, while that appeal was pending, Mr. Greene filed a separate civil action (14 CVS 1717) against Trustee Services and U.S. Bank, amended 5 August 2014, asserting a quiet-title claim and a claim for injunctive relief, alleging the Note's assignments to U.S. Bank were invalid/unauthorized and that U.S. Bank was not the holder of the Note.",
+      "Judge W. David Lee heard the defendants' motions to dismiss the civil action on 25 August 2014 and, on 27 August 2014, granted U.S. Bank's motion to dismiss (holding the issues belonged in the pending special proceeding) and granted Trustee Services' motion to dismiss as an improperly joined party under N.C. Gen. Stat. § 45-45.3, awarding Trustee Services $1,350.00 in attorneys' fees in a separate order the same date. Immediately after, Judge Lee conducted the de novo hearing in the special proceeding (13 SP 183) and, on 3 September 2014, entered an order authorizing foreclosure, finding all six elements of N.C. Gen. Stat. § 45-21.16(d) satisfied. Mr. Greene timely appealed all three orders, consolidated by the Court of Appeals as COA15-90 (the civil action) and COA15-97 (the special proceeding)."
+    ]
+  },
+  "holding_and_reasoning": {
+    "summary_capture_method": "Independently confirmed this run by directly reading the complete official opinion PDF -- SOURCE_VERIFIED confidence.",
+    "quoted_language": [
+      "Because the Note was indorsed in blank and U.S. Bank had possession of the Note, the superior court properly determined that U.S. Bank was the holder of the Note.",
+      "It is the fact of possession which is significant in determining whether a person is a holder [of a blank-indorsed note].",
+      "There is no provision of the UCC requiring a party in possession of a note indorsed in blank to show transfer of the note in order to enforce it.",
+      "Because the Note was indorsed in blank, the discrepancies in the Assignments of Deed of Trust alleged in the complaint are irrelevant. All that was required to show that U.S. Bank is the holder of the Note and beneficiary of the Deed of Trust was that U.S. Bank has possession of the Note."
+    ],
+    "real_correction_found_this_run": "The manifest previously quoted the first sentence above as '...the [trial] court properly determined that U.S. Bank was the holder of the Note.' The official opinion's actual text reads 'the superior court properly determined...' (this is Mr. Greene's de novo appeal to superior court, not the original clerk-of-court hearing). The bracketed word has been corrected from '[trial]' to the court's own actual word, 'superior,' quoted verbatim without alteration.",
+    "second_quote_attribution_note": "The second quoted sentence ('It is the fact of possession...') is the Court of Appeals' own paraphrase, in turn quoting In re Foreclosure of Connolly, 63 N.C. App. 547, 550, 306 S.E.2d 123, 125 (1983) -- a quote-within-a-quote, reproduced here exactly as it appears in Greene, brackets and all.",
+    "rule_confirmed": "Production of the original note, indorsed in blank, in the party's possession -- shown to the superior court on the Chapter 45 de novo hearing (and, independently, alleged sufficiently in a Rule 12(b)(6)-tested complaint) -- is sufficient to establish holder status under N.C. Gen. Stat. § 45-21.16(d)(i), with no separate requirement to prove a documented chain of transfer. The opinion does not discuss (and this run's direct reading confirms it does not discuss) any requirement that holder status be established as of an earlier filing date, consistent with a Chapter 45 power-of-sale proceeding not being a filed civil complaint tested for standing at commencement the way a judicial foreclosure action is."
+  },
+  "disposition": {
+    "capture_method": "Independently confirmed this run by directly reading the complete official opinion PDF -- SOURCE_VERIFIED confidence.",
+    "coa15_97": "Affirmed the 3 September 2014 order authorizing foreclosure on the property (including the superior court's holder-status finding, the notice finding, and the bond-disbursement ruling).",
+    "coa15_90": "Affirmed the trial court's order granting the motion to dismiss the civil quiet-title and injunctive-relief claims (on the independent ground that the amended complaint failed to sufficiently allege a quiet-title claim), and affirmed the order awarding Trustee Services $1,350.00 in attorneys' fees under N.C. Gen. Stat. § 45-45.3 for improper joinder.",
+    "verbatim_final_line": "AFFIRMED. Chief Judge McGee and Judge TYSON concur."
+  },
+  "retrieval_disclosure": {
+    "mechanism": "Real, disclosed change from Live Run 1.60's original attempt: this run re-attempted the official North Carolina Judicial Branch archive (www.nccourts.gov) directly and it again returned HTTP 403 to the WebFetch tool, confirming the prior run's finding still holds for that specific host. However, this run located the case's real official opinion PDF through two independent paths that succeeded: (1) the CourtListener v4 search API (a public, unauthenticated JSON endpoint, distinct from CourtListener's HTML search UI which also 403s to WebFetch) returned the case's real download_url pointing to the North Carolina Judicial Branch's own opinions server at a different host, appellate.nccourts.org (not blocked, unlike www.nccourts.gov); and (2) WebSearch independently surfaced the official bound-reporter PDF for N.C. Court of Appeals Reports Volume 244 (covering 17 November 2015 - 5 January 2016, the exact window containing this 5 January 2016 decision) at www.nccourts.gov/assets/documents/pdf-volumes/nccoa244.pdf, which itself also 403'd to WebFetch. Path (1) succeeded: WebFetch retrieved the raw PDF bytes from appellate.nccourts.org and saved them locally; the complete 21-page PDF was then read directly with the Read tool (genuine text extraction, not AI-mediated summarization) end to end, cover to cover.",
+    "what_was_achieved": "A complete, independently byte-read verbatim capture of the full Greene v. Trustee Services of Carolina, LLC opinion (21 pages), retrieved directly from the North Carolina Judicial Branch's own official opinions server (appellate.nccourts.org), the court's own first-choice source per docs/precedent-primary-source-plan.md. Every fact, quote, holding, and disposition element in this file was independently re-derived from that complete, official PDF this run, not from the prior run's aggregator (caselaw.findlaw.com) extraction. One real correction found and fixed (see holding_and_reasoning's own 'real_correction_found_this_run'); several real, additional procedural facts recovered that the prior run's aggregator-derived summary omitted (the 2010 first foreclosure attempt stayed by bankruptcy, the bankruptcy discharge, and the exact hearing/order dates).",
+    "what_was_not_achieved": "Nothing material -- the full opinion text was captured and independently read in its entirety.",
+    "fallback_used": "None needed this run -- the official court's own opinions server (appellate.nccourts.org, reached via a CourtListener-sourced download_url) was successfully retrieved, satisfying docs/precedent-primary-source-plan.md's tier-1 preference.",
+    "aggregator_used": "Not applicable this run -- the official court opinions server was used directly. (Live Run 1.60's original RETRIEVED-tier capture used https://caselaw.findlaw.com/court/nc-court-of-appeals/1722367.html as a fallback aggregator; that source is superseded by this run's official-source capture.)",
+    "official_source_used": "https://appellate.nccourts.org/opinions/?c=2&pdf=32998 (North Carolina Judicial Branch's own official appellate-opinions PDF server)",
+    "source_url_for_manifest": "https://appellate.nccourts.org/opinions/?c=2&pdf=32998",
+    "retrieval_timestamp": "2026-08-19T00:00:00"
+  }
+}

@@ -60,7 +60,21 @@
       "hidden_or_irrelevant_facts": [],
       "difficulty": 1,
       "next_task_id": "a2-t2-order-inventory",
-      "prerequisite_task_id": null
+      "prerequisite_task_id": null,
+      "business_or_personal_context": "",
+      "time_pressure": "",
+      "financial_stakes": "",
+      "documents_not_yet_obtained": [],
+      "parties_involved": [],
+      "discoverable_actions": [],
+      "business_effect": "",
+      "legal_effect": "",
+      "evidence_created_preserved_or_lost": "",
+      "rights_created_waived_or_preserved": "",
+      "deadlines": [],
+      "escalation_point": "",
+      "competency_id": "",
+      "next_variant_ids": []
     },
     {
       "task_id": "a2-t2-order-inventory",
@@ -124,7 +138,21 @@
       "hidden_or_irrelevant_facts": [],
       "difficulty": 2,
       "next_task_id": "a2-t3-nonconforming-delivery",
-      "prerequisite_task_id": "a2-t1-buy-a-laptop"
+      "prerequisite_task_id": "a2-t1-buy-a-laptop",
+      "business_or_personal_context": "",
+      "time_pressure": "",
+      "financial_stakes": "",
+      "documents_not_yet_obtained": [],
+      "parties_involved": [],
+      "discoverable_actions": [],
+      "business_effect": "",
+      "legal_effect": "",
+      "evidence_created_preserved_or_lost": "",
+      "rights_created_waived_or_preserved": "",
+      "deadlines": [],
+      "escalation_point": "",
+      "competency_id": "",
+      "next_variant_ids": []
     },
     {
       "task_id": "a2-t3-nonconforming-delivery",
@@ -192,7 +220,21 @@
       ],
       "difficulty": 3,
       "next_task_id": "a2-t4-transfer-warranty",
-      "prerequisite_task_id": "a2-t2-order-inventory"
+      "prerequisite_task_id": "a2-t2-order-inventory",
+      "business_or_personal_context": "",
+      "time_pressure": "",
+      "financial_stakes": "",
+      "documents_not_yet_obtained": [],
+      "parties_involved": [],
+      "discoverable_actions": [],
+      "business_effect": "",
+      "legal_effect": "",
+      "evidence_created_preserved_or_lost": "",
+      "rights_created_waived_or_preserved": "",
+      "deadlines": [],
+      "escalation_point": "",
+      "competency_id": "",
+      "next_variant_ids": []
     },
     {
       "task_id": "a2-t4-transfer-warranty",
@@ -253,7 +295,21 @@
       "hidden_or_irrelevant_facts": [],
       "difficulty": 4,
       "next_task_id": null,
-      "prerequisite_task_id": "a2-t3-nonconforming-delivery"
+      "prerequisite_task_id": "a2-t3-nonconforming-delivery",
+      "business_or_personal_context": "",
+      "time_pressure": "",
+      "financial_stakes": "",
+      "documents_not_yet_obtained": [],
+      "parties_involved": [],
+      "discoverable_actions": [],
+      "business_effect": "",
+      "legal_effect": "",
+      "evidence_created_preserved_or_lost": "",
+      "rights_created_waived_or_preserved": "",
+      "deadlines": [],
+      "escalation_point": "",
+      "competency_id": "",
+      "next_variant_ids": []
     }
   ]
 }

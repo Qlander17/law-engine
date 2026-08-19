@@ -97,6 +97,10 @@ exists.
 - [`docs/case-studies/product-architecture.md`](docs/case-studies/product-architecture.md) — the
   product overview: problem, user, MVP, what was deliberately not built, architecture, tradeoffs,
   roadmap, and risk.
+- [`docs/case-studies/precedent-conflict-mapping.md`](docs/case-studies/precedent-conflict-mapping.md)
+  — "Same Law, Different Outcome": how the bounded precedent-conflict prototype (see above) maps two
+  real, source-verified, conflicting-on-their-face judicial holdings to one explained, confidence-rated
+  conclusion.
 
 ## Running it
 
